@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182538716965",
+    "project_id": "christ-vainqueur",
+    "storage_bucket": "christ-vainqueur.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182538716965:android:a77b413e9731bc2d0a7ccc",
+        "android_client_info": {
+          "package_name": "com.christvainqueur.christ_vainqueur_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-FsNSaTr4-FuqcyjuA0GGBPZ3KzP8b5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

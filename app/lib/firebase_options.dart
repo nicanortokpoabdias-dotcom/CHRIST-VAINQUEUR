@@ -1,16 +1,7 @@
-// File generated normally by the FlutterFire CLI.
-// -----------------------------------------------------------------------
-// ⚠️  PLACEHOLDER — remplacez ce fichier avant de publier l'application.
-//
-// Ce fichier contient des valeurs factices. Pour le régénérer avec les
-// vraies informations de votre projet Firebase, installez la CLI puis
-// lancez, à la racine du dossier `app` :
-//
-//   dart pub global activate flutterfire_cli
-//   flutterfire configure
-//
-// Voir le README du projet pour les instructions complètes.
-// -----------------------------------------------------------------------
+// Généré à partir de android/app/google-services.json (projet Firebase
+// "christ-vainqueur"). Pour régénérer après un changement de configuration
+// Firebase, relancez `flutterfire configure` ou reportez les nouvelles
+// valeurs depuis google-services.json (client_info / api_key / project_info).
 
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
@@ -36,10 +27,10 @@ class DefaultFirebaseOptions {
   }
 
   static const android = FirebaseOptions(
-    apiKey: 'REPLACE_WITH_YOUR_API_KEY',
-    appId: 'REPLACE_WITH_YOUR_APP_ID',
-    messagingSenderId: 'REPLACE_WITH_YOUR_SENDER_ID',
-    projectId: 'christ-vainqueur-app',
-    storageBucket: 'christ-vainqueur-app.appspot.com',
+    apiKey: 'AIzaSyD-FsNSaTr4-FuqcyjuA0GGBPZ3KzP8b5k',
+    appId: '1:182538716965:android:a77b413e9731bc2d0a7ccc',
+    messagingSenderId: '182538716965',
+    projectId: 'christ-vainqueur',
+    storageBucket: 'christ-vainqueur.firebasestorage.app',
   );
 }
