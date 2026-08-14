@@ -12,6 +12,11 @@ programme des événements, verset du jour, et notifications push.
 - 📅 **Programme** — calendrier des cultes, veillées, jeûnes et autres
   événements à venir.
 - ✝️ **Verset du jour** — bandeau avec verset et méditation en tête d'accueil.
+- 📺 **Réseaux sociaux** — boutons YouTube et TikTok sur l'accueil.
+
+L'application démarre normalement même sans configuration Firebase (contenu
+de repli), pour que l'APK soit installable et utilisable immédiatement. Les
+actualités en temps réel nécessitent la configuration Firebase ci-dessous.
 
 ## Stack technique
 
@@ -45,9 +50,10 @@ notifications passent par FCM).
 5. Dans la console Firebase, activez **Cloud Firestore** (mode production ou
    test) et **Cloud Messaging**.
 
-Tant que `google-services.json` n'est pas ajouté, l'application compile mais
-`Firebase.initializeApp()` échouera au lancement — c'est normal, il faut
-terminer la configuration ci-dessus.
+Tant que `google-services.json` n'est pas ajouté, l'application compile et se
+lance normalement, mais affiche un contenu de repli (verset par défaut,
+aucune actualité) au lieu des vraies données. Terminez la configuration
+ci-dessus pour activer les actualités en temps réel et les notifications.
 
 ## Structure des données Firestore attendue
 
@@ -110,3 +116,10 @@ flutter build apk --release
 ```
 
 L'APK signé se trouve ensuite dans `build/app/outputs/flutter-apk/`.
+
+### Compiler via GitHub Actions
+
+Le workflow `.github/workflows/build-apk.yml` compile automatiquement l'APK
+release à chaque push sur cette branche (ou manuellement via l'onglet
+*Actions* → *Build Android APK* → *Run workflow*). L'APK est ensuite
+téléchargeable dans les *Artifacts* du run.
