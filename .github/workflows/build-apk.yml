@@ -34,3 +34,21 @@ jobs:
           name: christ-vainqueur-app-release-apk
           path: app/build/app/outputs/flutter-apk/app-release.apk
           retention-days: 30
+
+      # Publie aussi l'APK sur une branche dédiée (via git, pas de stockage
+      # blob externe) pour permettre son téléchargement depuis des environnements
+      # dont l'accès réseau est restreint à github.com.
+      - name: Publier l'APK sur la branche apk-build
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk /tmp/app-release.apk
+          cd ..
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan apk-build
+          git reset --hard
+          git clean -fd
+          mkdir -p dist
+          cp /tmp/app-release.apk dist/christ-vainqueur-app-release.apk
+          git add dist/christ-vainqueur-app-release.apk
+          git commit -m "APK release ${{ github.sha }}"
+          git push --force origin apk-build
