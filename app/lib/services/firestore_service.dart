@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 
+import '../models/audio_message.dart';
 import '../models/daily_verse.dart';
 import '../models/news_article.dart';
 import '../models/prayer_event.dart';
@@ -53,6 +54,20 @@ class FirestoreService {
     } catch (error) {
       debugPrint('Firestore indisponible: $error');
       return Stream.value(const <PrayerEvent>[]);
+    }
+  }
+
+  Stream<List<AudioMessage>> watchAudioMessages() {
+    try {
+      return FirebaseFirestore.instance
+          .collection('audioMessages')
+          .orderBy('recordedAt', descending: true)
+          .snapshots()
+          .map((snap) => snap.docs.map(AudioMessage.fromFirestore).toList())
+          .transform(_fallbackOnError(const <AudioMessage>[]));
+    } catch (error) {
+      debugPrint('Firestore indisponible: $error');
+      return Stream.value(const <AudioMessage>[]);
     }
   }
 

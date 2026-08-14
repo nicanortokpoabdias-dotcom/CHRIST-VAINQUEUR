@@ -7,6 +7,7 @@ class PrayerEvent {
   final String location;
   final DateTime startAt;
   final bool isRecurringWeekly;
+  final String? posterUrl;
 
   const PrayerEvent({
     required this.id,
@@ -15,6 +16,7 @@ class PrayerEvent {
     required this.location,
     required this.startAt,
     this.isRecurringWeekly = false,
+    this.posterUrl,
   });
 
   factory PrayerEvent.fromFirestore(DocumentSnapshot<Map<String, dynamic>> doc) {
@@ -26,6 +28,7 @@ class PrayerEvent {
       location: data['location'] as String? ?? 'Centre de Prière Christ Vainqueur',
       startAt: (data['startAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
       isRecurringWeekly: data['isRecurringWeekly'] as bool? ?? false,
+      posterUrl: data['posterUrl'] as String?,
     );
   }
 }

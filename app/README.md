@@ -10,7 +10,9 @@ programme des événements, verset du jour, et notifications push.
 - 🔔 **Notifications push** — via Firebase Cloud Messaging, sur les topics
   `actualites` et `evenements`.
 - 📅 **Programme** — calendrier des cultes, veillées, jeûnes et autres
-  événements à venir.
+  événements à venir, avec affiche (image) optionnelle par événement.
+- 🎧 **Prières & prédications** — séances de prière enregistrées (mp3),
+  écoutables dans l'app et téléchargeables.
 - ✝️ **Verset du jour** — bandeau avec verset et méditation en tête d'accueil.
 - 📺 **Réseaux sociaux** — boutons YouTube et TikTok sur l'accueil.
 
@@ -69,13 +71,23 @@ ci-dessus pour activer les actualités en temps réel et les notifications.
 
 ### Collection `events` (programme)
 
-| Champ               | Type      | Description                     |
-|---------------------|-----------|----------------------------------|
-| `title`             | string    | Nom de l'événement               |
-| `description`       | string    | Détails                          |
-| `location`          | string    | Lieu                             |
-| `startAt`           | timestamp | Date et heure de début           |
-| `isRecurringWeekly` | bool      | Événement hebdomadaire récurrent |
+| Champ               | Type      | Description                          |
+|---------------------|-----------|----------------------------------------|
+| `title`             | string    | Nom de l'événement                    |
+| `description`       | string    | Détails                               |
+| `location`          | string    | Lieu                                  |
+| `startAt`           | timestamp | Date et heure de début                |
+| `isRecurringWeekly` | bool      | Événement hebdomadaire récurrent      |
+| `posterUrl`         | string?   | URL de l'affiche de l'événement (optionnel) |
+
+### Collection `audioMessages` (prières & prédications enregistrées)
+
+| Champ         | Type      | Description                          |
+|---------------|-----------|---------------------------------------|
+| `title`       | string    | Titre de la séance (ex: "Prière du matin") |
+| `description` | string    | Courte description (optionnel)        |
+| `audioUrl`    | string    | URL du fichier mp3                    |
+| `recordedAt`  | timestamp | Date de l'enregistrement              |
 
 ### Collection `dailyVerse` (verset du jour)
 
@@ -86,15 +98,51 @@ ci-dessus pour activer les actualités en temps réel et les notifications.
 | `meditation` | string?   | Courte méditation (optionnel)|
 | `date`       | timestamp | Date associée                |
 
-## Publier une actualité ou un événement
+## Publier du contenu (actualités, événements, affiches, audio)
 
-Dans un premier temps, publiez directement depuis la
-[console Firebase → Firestore Database](https://console.firebase.google.com),
-en ajoutant un document dans la collection correspondante.
+Tout se publie depuis la [console Firebase](https://console.firebase.google.com),
+sans passer par du code. Deux étapes selon le type de contenu :
 
-Pour envoyer une **notification push** en même temps qu'une actualité,
-utilisez la console Firebase → *Cloud Messaging* → *Nouvelle campagne*, en
-ciblant le topic `actualites` (ou `evenements`).
+### Contenu texte simple (actualité, verset du jour)
+
+Allez dans *Firestore Database* → collection correspondante (`news` ou
+`dailyVerse`) → *Ajouter un document*, et remplissez les champs listés plus
+haut. Pour `startAt`, `publishedAt`, `date`, `recordedAt`, utilisez le type
+**timestamp** (pas texte).
+
+### Événement avec affiche, ou audio à télécharger
+
+Ces contenus (image, mp3) doivent d'abord être hébergés sur **Firebase
+Storage**, puis leur URL est renseignée dans le document Firestore :
+
+1. **Activer Storage** (une seule fois) : console Firebase → *Storage* →
+   *Get started*. Dans l'onglet *Rules*, autorisez la lecture publique (les
+   fichiers restent seulement modifiables depuis la console) :
+
+   ```
+   rules_version = '2';
+   service firebase.storage {
+     match /b/{bucket}/o {
+       match /{allPaths=**} {
+         allow read: if true;
+         allow write: if false;
+       }
+     }
+   }
+   ```
+
+2. **Uploader le fichier** : onglet *Files* → créez un dossier `posters/` (pour
+   les affiches) ou `audio/` (pour les mp3) → *Upload file*.
+3. **Récupérer l'URL** : cliquez sur le fichier uploadé, puis sur *Copier
+   l'URL de téléchargement* (ou l'icône de lien). C'est une URL du type
+   `https://firebasestorage.googleapis.com/v0/b/.../o/...?alt=media&token=...`.
+4. **Créer le document Firestore** :
+   - Événement : collection `events`, collez l'URL dans le champ `posterUrl`.
+   - Audio : collection `audioMessages`, collez l'URL dans le champ `audioUrl`.
+
+Pour envoyer une **notification push** en même temps qu'une actualité ou un
+événement, utilisez la console Firebase → *Cloud Messaging* → *Nouvelle
+campagne*, en ciblant le topic `actualites` (ou `evenements`).
 
 > Une interface d'administration dédiée (site web ou app) pourra être
 > ajoutée plus tard pour simplifier la publication sans passer par la

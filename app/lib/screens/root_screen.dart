@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'audio_screen.dart';
 import 'events_screen.dart';
 import 'home_screen.dart';
 
@@ -13,13 +14,14 @@ class RootScreen extends StatefulWidget {
 class _RootScreenState extends State<RootScreen> {
   int _index = 0;
 
-  static const _screens = [HomeScreen(), EventsScreen()];
+  static const _screens = [HomeScreen(), EventsScreen(), AudioScreen()];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: IndexedStack(index: _index, children: _screens),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         currentIndex: _index,
         onTap: (i) => setState(() => _index = i),
         items: const [
@@ -32,6 +34,11 @@ class _RootScreenState extends State<RootScreen> {
             icon: Icon(Icons.calendar_month_outlined),
             activeIcon: Icon(Icons.calendar_month),
             label: 'Programme',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.headphones_outlined),
+            activeIcon: Icon(Icons.headphones),
+            label: 'Prières',
           ),
         ],
       ),
