@@ -30,20 +30,22 @@ jobs:
 
       - run: flutter analyze
 
-      - run: flutter build apk --release
+      - run: flutter build apk --release --split-per-abi
 
       - uses: actions/upload-artifact@v4
         with:
           name: christ-vainqueur-app-release-apk
-          path: app/build/app/outputs/flutter-apk/app-release.apk
+          path: app/build/app/outputs/flutter-apk/*.apk
           retention-days: 30
 
-      # Publie aussi l'APK sur une branche dédiée (via git, pas de stockage
-      # blob externe) pour permettre son téléchargement depuis des environnements
-      # dont l'accès réseau est restreint à github.com.
-      - name: Publier l'APK sur la branche apk-build
+      # Publie aussi les APK sur une branche dédiée (via git, pas de stockage
+      # blob externe) pour permettre leur téléchargement depuis des environnements
+      # dont l'accès réseau est restreint à github.com. Les variantes "split
+      # per ABI" sont bien plus légères que l'APK universel.
+      - name: Publier les APK sur la branche apk-build
         run: |
-          cp build/app/outputs/flutter-apk/app-release.apk /tmp/app-release.apk
+          mkdir -p /tmp/apks
+          cp build/app/outputs/flutter-apk/*.apk /tmp/apks/
           cd ..
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -51,7 +53,7 @@ jobs:
           git reset --hard
           git clean -fd
           mkdir -p dist
-          cp /tmp/app-release.apk dist/christ-vainqueur-app-release.apk
-          git add dist/christ-vainqueur-app-release.apk
+          cp /tmp/apks/*.apk dist/
+          git add dist/
           git commit -m "APK release ${{ github.sha }}"
           git push --force origin apk-build
