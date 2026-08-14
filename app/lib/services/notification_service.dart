@@ -24,8 +24,12 @@ class NotificationService {
     importance: Importance.high,
   );
 
+  static const _networkTimeout = Duration(seconds: 10);
+
   Future<void> init() async {
-    await _messaging.requestPermission(alert: true, badge: true, sound: true);
+    await _messaging
+        .requestPermission(alert: true, badge: true, sound: true)
+        .timeout(_networkTimeout);
 
     await _localNotifications
         .resolvePlatformSpecificImplementation<
@@ -39,8 +43,8 @@ class NotificationService {
     );
 
     // Toutes les news/événements publiés sont diffusés sur ces topics.
-    await _messaging.subscribeToTopic('actualites');
-    await _messaging.subscribeToTopic('evenements');
+    await _messaging.subscribeToTopic('actualites').timeout(_networkTimeout);
+    await _messaging.subscribeToTopic('evenements').timeout(_networkTimeout);
 
     FirebaseMessaging.onMessage.listen(_showForegroundNotification);
   }
