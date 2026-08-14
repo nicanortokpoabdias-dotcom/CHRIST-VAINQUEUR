@@ -11,9 +11,15 @@ import 'theme/app_theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
-  await NotificationService.instance.init();
+  // Tant que Firebase n'est pas configuré (voir README), l'app démarre quand
+  // même avec le contenu de repli plutôt que de planter au lancement.
+  try {
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+    FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
+    await NotificationService.instance.init();
+  } catch (error) {
+    debugPrint('Firebase non configuré, démarrage en mode dégradé: $error');
+  }
 
   await initializeDateFormatting('fr_FR', null);
 

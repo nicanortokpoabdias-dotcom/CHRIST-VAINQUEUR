@@ -4,6 +4,7 @@ import '../models/daily_verse.dart';
 import '../models/news_article.dart';
 import '../services/firestore_service.dart';
 import '../widgets/news_card.dart';
+import '../widgets/social_links_row.dart';
 import '../widgets/verse_banner.dart';
 import 'news_detail_screen.dart';
 
@@ -13,7 +14,13 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Christ Vainqueur')),
+      appBar: AppBar(
+        leading: Padding(
+          padding: const EdgeInsets.all(8),
+          child: Image.asset('assets/images/logo_transparent.png'),
+        ),
+        title: const Text('Christ Vainqueur'),
+      ),
       body: CustomScrollView(
         slivers: [
             SliverToBoxAdapter(
@@ -25,6 +32,7 @@ class HomeScreen extends StatelessWidget {
                 },
               ),
             ),
+            const SliverToBoxAdapter(child: SocialLinksRow()),
             const SliverToBoxAdapter(
               child: Padding(
                 padding: EdgeInsets.fromLTRB(20, 16, 20, 4),
