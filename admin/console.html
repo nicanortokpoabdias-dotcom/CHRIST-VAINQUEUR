@@ -317,6 +317,14 @@
             <div class="status-msg" id="verse-status"></div>
           </form>
         </div>
+        <div class="card">
+          <h2>Importer une programmation</h2>
+          <p class="hint">Charge en une fois plusieurs versets déjà datés (matin/soir), par ex. une programmation de 6 mois. Sans danger à relancer : les versets déjà importés sont simplement mis à jour, jamais dupliqués.</p>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="button" id="verse-import-btn">Importer verses_364.json</button>
+          </div>
+          <div class="status-msg" id="verse-import-status"></div>
+        </div>
         <div class="card"><h2>Versets publiés</h2><div id="verse-list"></div></div>
       </section>
     </main>
@@ -695,6 +703,38 @@
         thumbUrl: null, thumbFallback: '✝'
       };
     }
+  });
+
+  // ------------------------------------------------- import en masse (verset)
+  $('verse-import-btn').addEventListener('click', function(){
+    var btn = this;
+    btn.disabled = true;
+    showStatus('verse-import-status', 'ok', 'Chargement de verses_364.json…');
+    fetch('verses_364.json').then(function(r){
+      if (!r.ok) throw new Error('Fichier introuvable (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(entries){
+      showStatus('verse-import-status', 'ok', 'Import de ' + entries.length + ' versets…');
+      var batch = db.batch();
+      entries.forEach(function(entry){
+        var ref = db.collection('dailyVerse').doc(entry.id);
+        batch.set(ref, {
+          reference: entry.reference,
+          text: entry.textFr,
+          meditation: null,
+          date: firebase.firestore.Timestamp.fromDate(new Date(entry.date)),
+          timeOfDay: entry.timeOfDay || null,
+          textFon: entry.textFon || null
+        }, {merge: true});
+      });
+      return batch.commit().then(function(){ return entries.length; });
+    }).then(function(count){
+      showStatus('verse-import-status', 'ok', count + ' versets importés avec succès.');
+    }).catch(function(err){
+      showStatus('verse-import-status', 'err', 'Erreur : ' + err.message);
+    }).finally(function(){
+      btn.disabled = false;
+    });
   });
 
   // ---------------------------------------------------------------- auth

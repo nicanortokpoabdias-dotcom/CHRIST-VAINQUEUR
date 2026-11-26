@@ -1,0 +1,3278 @@
+[
+  {
+    "id": "2026-11-27-matin",
+    "date": "2026-11-27T05:00:00+00:00",
+    "dateDisplay": "27/ 11/ 26",
+    "timeOfDay": "matin",
+    "reference": "1 Corinthiens 13:1",
+    "textFr": "Quand je parlerais les langues des hommes et des anges, si je n'ai pas la charité, je suis un airain qui résonne, ou une cymbale qui retentit.",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-27-soir",
+    "date": "2026-11-27T17:00:00+00:00",
+    "dateDisplay": "27/ 11/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 51:2",
+    "textFr": "Lave-moi complètement de mon iniquité, Et purifie-moi de mon péché.",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-28-matin",
+    "date": "2026-11-28T05:00:00+00:00",
+    "dateDisplay": "28/ 11/ 26",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 61:2",
+    "textFr": "Pour publier une année de grâce de l'Eternel, Et un jour de vengeance de notre Dieu; Pour consoler tous les affligés;",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-28-soir",
+    "date": "2026-11-28T17:00:00+00:00",
+    "dateDisplay": "28/ 11/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 8:2",
+    "textFr": "Par la bouche des enfants et de ceux qui sont à la mamelle Tu as fondé ta gloire, pour confondre tes adversaires, Pour imposer silence à l'ennemi et au vindicatif.",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-29-matin",
+    "date": "2026-11-29T05:00:00+00:00",
+    "dateDisplay": "29/ 11/ 26",
+    "timeOfDay": "matin",
+    "reference": "Colossiens 1:2",
+    "textFr": "aux saints et fidèles frères en Christ qui sont à Colosses; que la grâce et la paix vous soient données de la part de Dieu notre Père!",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-29-soir",
+    "date": "2026-11-29T17:00:00+00:00",
+    "dateDisplay": "29/ 11/ 26",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 1:2",
+    "textFr": "Que la grâce et la paix vous soient données de la part de Dieu notre Père et du Seigneur Jésus-Christ!",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-30-matin",
+    "date": "2026-11-30T05:00:00+00:00",
+    "dateDisplay": "30/ 11/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 92:2",
+    "textFr": "D'annoncer le matin ta bonté, Et ta fidélité pendant les nuits,",
+    "textFon": null
+  },
+  {
+    "id": "2026-11-30-soir",
+    "date": "2026-11-30T17:00:00+00:00",
+    "dateDisplay": "30/ 11/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 133:2",
+    "textFr": "C'est comme l'huile précieuse qui, répandue sur la tête, Descend sur la barbe, sur la barbe d'Aaron, Qui descend sur le bord de ses vêtements.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-01-matin",
+    "date": "2026-12-01T05:00:00+00:00",
+    "dateDisplay": "01/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 53:1",
+    "textFr": "Qui a cru à ce qui nous était annoncé? Qui a reconnu le bras de l'Eternel?",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-01-soir",
+    "date": "2026-12-01T17:00:00+00:00",
+    "dateDisplay": "01/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 3:1",
+    "textFr": "Mon fils, n'oublie pas mes enseignements, Et que ton coeur garde mes préceptes;",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-02-matin",
+    "date": "2026-12-02T05:00:00+00:00",
+    "dateDisplay": "02/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 7:1",
+    "textFr": "Ne jugez point, afin que vous ne soyez point jugés.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-02-soir",
+    "date": "2026-12-02T17:00:00+00:00",
+    "dateDisplay": "02/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 28:18",
+    "textFr": "Jésus, s'étant approché, leur parla ainsi: Tout pouvoir m'a été donné dans le ciel et sur la terre.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-03-matin",
+    "date": "2026-12-03T05:00:00+00:00",
+    "dateDisplay": "03/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 2:1",
+    "textFr": "Vous étiez morts par vos offenses et par vos péchés,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-03-soir",
+    "date": "2026-12-03T17:00:00+00:00",
+    "dateDisplay": "03/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 116:1",
+    "textFr": "J'aime l'Eternel, car il entend Ma voix, mes supplications;",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-04-matin",
+    "date": "2026-12-04T05:00:00+00:00",
+    "dateDisplay": "04/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "1 Corinthiens 15:1",
+    "textFr": "Je vous rappelle, frères, l'Evangile que je vous ai annoncé, que vous avez reçu, dans lequel vous avez persévéré,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-04-soir",
+    "date": "2026-12-04T17:00:00+00:00",
+    "dateDisplay": "04/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Romains 8:1",
+    "textFr": "Il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-05-matin",
+    "date": "2026-12-05T05:00:00+00:00",
+    "dateDisplay": "05/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 5:1",
+    "textFr": "Nous savons, en effet, que, si cette tente où nous habitons sur la terre est détruite, nous avons dans le ciel un édifice qui est l'ouvrage de Dieu, une demeure éternelle qui n'a pas été faite de main d'homme.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-05-soir",
+    "date": "2026-12-05T17:00:00+00:00",
+    "dateDisplay": "05/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Philippiens 1:3",
+    "textFr": "Je rends grâces à mon Dieu de tout le souvenir que je garde de vous,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-06-matin",
+    "date": "2026-12-06T05:00:00+00:00",
+    "dateDisplay": "06/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Jean 14:1",
+    "textFr": "Que votre coeur ne se trouble point. Croyez en Dieu, et croyez en moi.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-06-soir",
+    "date": "2026-12-06T17:00:00+00:00",
+    "dateDisplay": "06/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Romains 12:1",
+    "textFr": "Je vous exhorte donc, frères, par les compassions de Dieu, à offrir vos corps comme un sacrifice vivant, saint, agréable à Dieu, ce qui sera de votre part un culte raisonnable.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-07-matin",
+    "date": "2026-12-07T05:00:00+00:00",
+    "dateDisplay": "07/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Jean 3:1",
+    "textFr": "Mais il y eut un homme d'entre les pharisiens, nommé Nicodème, un chef des Juifs,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-07-soir",
+    "date": "2026-12-07T17:00:00+00:00",
+    "dateDisplay": "07/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "1 Jean 1:1",
+    "textFr": "Ce qui était dès le commencement, ce que nous avons entendu, ce que nous avons vu de nos yeux, ce que nous avons contemplé et que nos mains ont touché, concernant la parole de vie, -",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-08-matin",
+    "date": "2026-12-08T05:00:00+00:00",
+    "dateDisplay": "08/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "2 Timothée 1:2",
+    "textFr": "Timothée, mon enfant bien-aimé: que la grâce, la miséricorde et la paix te soient données de la part de Dieu le Père et de Jésus-Christ notre Seigneur!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-08-soir",
+    "date": "2026-12-08T17:00:00+00:00",
+    "dateDisplay": "08/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 12:1",
+    "textFr": "Il faut se glorifier... Cela n'est pas bon. J'en viendrai néanmoins à des visions et à des révélations du Seigneur.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-09-matin",
+    "date": "2026-12-09T05:00:00+00:00",
+    "dateDisplay": "09/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 4:1",
+    "textFr": "Ecoutez, mes fils, l'instruction d'un père, Et soyez attentifs, pour connaître la sagesse;",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-09-soir",
+    "date": "2026-12-09T17:00:00+00:00",
+    "dateDisplay": "09/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 42:2",
+    "textFr": "Mon âme a soif de Dieu, du Dieu vivant: Quand irai-je et paraîtrai-je devant la face de Dieu?",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-10-matin",
+    "date": "2026-12-10T05:00:00+00:00",
+    "dateDisplay": "10/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 40:1",
+    "textFr": "Consolez, consolez mon peuple, Dit votre Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-10-soir",
+    "date": "2026-12-10T17:00:00+00:00",
+    "dateDisplay": "10/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Philippiens 4:1",
+    "textFr": "C'est pourquoi, mes bien-aimés, et très chers frères, vous qui êtes ma joie et ma couronne, demeurez ainsi fermes dans le Seigneur, mes bien-aimés!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-11-matin",
+    "date": "2026-12-11T05:00:00+00:00",
+    "dateDisplay": "11/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 147:1",
+    "textFr": "Louez l'Eternel! Car il est beau de célébrer notre Dieu, Car il est doux, il est bienséant de le louer.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-11-soir",
+    "date": "2026-12-11T17:00:00+00:00",
+    "dateDisplay": "11/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 5:2",
+    "textFr": "Puis, ayant ouvert la bouche, il les enseigna, et dit:",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-12-matin",
+    "date": "2026-12-12T05:00:00+00:00",
+    "dateDisplay": "12/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 4:1",
+    "textFr": "C'est pourquoi, ayant ce ministère, selon la miséricorde qui nous a été faite, nous ne perdons pas courage.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-12-soir",
+    "date": "2026-12-12T17:00:00+00:00",
+    "dateDisplay": "12/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 55:1",
+    "textFr": "Vous tous qui avez soif, venez aux eaux, Même celui qui n'a pas d'argent! Venez, achetez et mangez, Venez, achetez du vin et du lait, sans argent, sans rien payer!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-13-matin",
+    "date": "2026-12-13T05:00:00+00:00",
+    "dateDisplay": "13/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 43:1",
+    "textFr": "Ainsi parle maintenant l'Eternel, qui t'a créé, ô Jacob! Celui qui t'a formé, ô Israël! Ne crains rien, car je te rachète, Je t'appelle par ton nom: tu es à moi!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-13-soir",
+    "date": "2026-12-13T17:00:00+00:00",
+    "dateDisplay": "13/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Apocalypse 3:1",
+    "textFr": "Ecris à l'ange de l'Eglise de Sardes: Voici ce que dit celui qui a les sept esprits de Dieu et les sept étoiles: Je connais tes oeuvres. Je sais que tu passes pour être vivant, et tu es mort.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-14-matin",
+    "date": "2026-12-14T05:00:00+00:00",
+    "dateDisplay": "14/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 11:1",
+    "textFr": "Lorsque Jésus eut achevé de donner ses instructions à ses douze disciples, il partit de là, pour enseigner et prêcher dans les villes du pays.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-14-soir",
+    "date": "2026-12-14T17:00:00+00:00",
+    "dateDisplay": "14/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 4:1",
+    "textFr": "Craignons donc, tandis que la promesse d'entrer dans son repos subsiste encore, qu'aucun de vous ne paraisse être venu trop tard.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-15-matin",
+    "date": "2026-12-15T05:00:00+00:00",
+    "dateDisplay": "15/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 63:2",
+    "textFr": "Ainsi je te contemple dans le sanctuaire, Pour voir ta puissance et ta gloire.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-15-soir",
+    "date": "2026-12-15T17:00:00+00:00",
+    "dateDisplay": "15/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 31:10",
+    "textFr": "Qui peut trouver une femme vertueuse? Elle a bien plus de valeur que les perles.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-16-matin",
+    "date": "2026-12-16T05:00:00+00:00",
+    "dateDisplay": "16/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 126:3",
+    "textFr": "L'Eternel a fait pour nous de grandes choses; Nous sommes dans la joie.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-16-soir",
+    "date": "2026-12-16T17:00:00+00:00",
+    "dateDisplay": "16/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 112:1",
+    "textFr": "Louez l'Eternel! Heureux l'homme qui craint l'Eternel, Qui trouve un grand plaisir à ses commandements.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-17-matin",
+    "date": "2026-12-17T05:00:00+00:00",
+    "dateDisplay": "17/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Galates 6:1",
+    "textFr": "Frères, si un homme vient à être surpris en quelque faute, vous qui êtes spirituels, redressez-le avec un esprit de douceur. Prends garde à toi-même, de peur que tu ne sois aussi tenté.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-17-soir",
+    "date": "2026-12-17T17:00:00+00:00",
+    "dateDisplay": "17/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 3:1",
+    "textFr": "A cause de cela, moi Paul, le prisonnier de Christ pour vous païens...",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-18-matin",
+    "date": "2026-12-18T05:00:00+00:00",
+    "dateDisplay": "18/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Jean 15:1",
+    "textFr": "Je suis le vrai cep, et mon Père est le vigneron.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-18-soir",
+    "date": "2026-12-18T17:00:00+00:00",
+    "dateDisplay": "18/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 37:1",
+    "textFr": "De David. Ne t'irrite pas contre les méchants, N'envie pas ceux qui font le mal.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-19-matin",
+    "date": "2026-12-19T05:00:00+00:00",
+    "dateDisplay": "19/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 16:1",
+    "textFr": "Les projets que forme le coeur dépendent de l'homme, Mais la réponse que donne la bouche vient de l'Eternel.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-19-soir",
+    "date": "2026-12-19T17:00:00+00:00",
+    "dateDisplay": "19/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Colossiens 3:1",
+    "textFr": "Si donc vous êtes ressuscités avec Christ, cherchez les choses d'en haut, où Christ est assis à la droite de Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-20-matin",
+    "date": "2026-12-20T05:00:00+00:00",
+    "dateDisplay": "20/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 16:2",
+    "textFr": "Je dis à l'Eternel: Tu es mon Seigneur, Tu es mon souverain bien!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-20-soir",
+    "date": "2026-12-20T17:00:00+00:00",
+    "dateDisplay": "20/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 100:2",
+    "textFr": "Servez l'Eternel, avec joie, Venez avec allégresse en sa présence!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-21-matin",
+    "date": "2026-12-21T05:00:00+00:00",
+    "dateDisplay": "21/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 41:1",
+    "textFr": "Iles, faites silence pour m'écouter! Que les peuples raniment leur force, Qu'ils avancent, et qu'ils parlent! Approchons pour plaider ensemble.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-21-soir",
+    "date": "2026-12-21T17:00:00+00:00",
+    "dateDisplay": "21/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Jean 10:1",
+    "textFr": "En vérité, en vérité, je vous le dis, celui qui n'entre pas par la porte dans la bergerie, mais qui y monte par ailleurs, est un voleur et un brigand.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-22-matin",
+    "date": "2026-12-22T05:00:00+00:00",
+    "dateDisplay": "22/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 123:2",
+    "textFr": "Voici, comme les yeux des serviteurs sont fixés sur la main de leurs maîtres, Et les yeux de la servante sur la main de sa maîtresse, Ainsi nos yeux se tournent vers l'Eternel, notre Dieu, Jusqu'à ce qu'il ait pitié de nous.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-22-soir",
+    "date": "2026-12-22T17:00:00+00:00",
+    "dateDisplay": "22/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 11:1",
+    "textFr": "Or la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-23-matin",
+    "date": "2026-12-23T05:00:00+00:00",
+    "dateDisplay": "23/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 127:2",
+    "textFr": "En vain vous levez-vous matin, vous couchez-vous tard, Et mangez-vous le pain de douleur; Il en donne autant à ses bien-aimés pendant leur sommeil.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-23-soir",
+    "date": "2026-12-23T17:00:00+00:00",
+    "dateDisplay": "23/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 27:1",
+    "textFr": "De David. L'Eternel est ma lumière et mon salut: De qui aurais-je crainte? L'Eternel est le soutien de ma vie: De qui aurais-je peur?",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-24-matin",
+    "date": "2026-12-24T05:00:00+00:00",
+    "dateDisplay": "24/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 34:1",
+    "textFr": "De David. Lorsqu'il contrefit l'insensé en présence d'Abimélec, et qu'il s'en alla chassé par lui. Je bénirai l'Eternel en tout temps; Sa louange sera toujours dans ma bouche.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-24-soir",
+    "date": "2026-12-24T17:00:00+00:00",
+    "dateDisplay": "24/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 1:2",
+    "textFr": "que la grâce et la paix vous soient données de la part de Dieu notre Père et du Seigneur Jésus-Christ!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-25-matin",
+    "date": "2026-12-25T05:00:00+00:00",
+    "dateDisplay": "25/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Jean 1:1",
+    "textFr": "Au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-25-soir",
+    "date": "2026-12-25T17:00:00+00:00",
+    "dateDisplay": "25/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Jacques 4:1",
+    "textFr": "D'où viennent les luttes, et d'où viennent les querelles parmi vous? N'est-ce pas de vos passions qui combattent dans vos membres?",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-26-matin",
+    "date": "2026-12-26T05:00:00+00:00",
+    "dateDisplay": "26/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 46:2",
+    "textFr": "C'est pourquoi nous sommes sans crainte quand la terre est bouleversée, Et que les montagnes chancellent au coeur des mers,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-26-soir",
+    "date": "2026-12-26T17:00:00+00:00",
+    "dateDisplay": "26/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "1 Pierre 1:3",
+    "textFr": "Béni soit Dieu, le Père de notre Seigneur Jésus-Christ, qui, selon sa grande miséricorde, nous a régénérés, pour une espérance vivante, par la résurrection de Jésus-Christ d'entre les morts,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-27-matin",
+    "date": "2026-12-27T05:00:00+00:00",
+    "dateDisplay": "27/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 121:2",
+    "textFr": "Le secours me vient de l'Eternel, Qui a fait les cieux et la terre.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-27-soir",
+    "date": "2026-12-27T17:00:00+00:00",
+    "dateDisplay": "27/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 12:1",
+    "textFr": "Nous donc aussi, puisque nous sommes environnés d'une si grande nuée de témoins, rejetons tout fardeau, et le péché qui nous enveloppe si facilement, et courons avec persévérance dans la carrière qui nous est ouverte,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-28-matin",
+    "date": "2026-12-28T05:00:00+00:00",
+    "dateDisplay": "28/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 6:1",
+    "textFr": "Gardez-vous de pratiquer votre justice devant les hommes, pour en être vus; autrement, vous n'aurez point de récompense auprès de votre Père qui est dans les cieux.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-28-soir",
+    "date": "2026-12-28T17:00:00+00:00",
+    "dateDisplay": "28/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Psaume 118:1",
+    "textFr": "Louez l'Eternel, car il est bon, Car sa miséricorde dure à toujours!",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-29-matin",
+    "date": "2026-12-29T05:00:00+00:00",
+    "dateDisplay": "29/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Psaume 1:1",
+    "textFr": "Heureux l'homme qui ne marche pas selon le conseil des méchants, Qui ne s'arrête pas sur la voie des pécheurs, Et qui ne s'assied pas en compagnie des moqueurs,",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-29-soir",
+    "date": "2026-12-29T17:00:00+00:00",
+    "dateDisplay": "29/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "1 Jean 4:1",
+    "textFr": "Bien-aimés, n'ajoutez pas foi à tout esprit; mais éprouvez les esprits, pour savoir s'ils sont de Dieu, car plusieurs faux prophètes sont venus dans le monde.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-30-matin",
+    "date": "2026-12-30T05:00:00+00:00",
+    "dateDisplay": "30/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Romains 15:1",
+    "textFr": "Nous qui sommes forts, nous devons supporter les faiblesses de ceux qui ne le sont pas, et ne pas nous complaire en nous-mêmes.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-30-soir",
+    "date": "2026-12-30T17:00:00+00:00",
+    "dateDisplay": "30/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "1 Pierre 5:1",
+    "textFr": "Voici les exhortations que j'adresse aux anciens qui sont parmi vous, moi ancien comme eux, témoin des souffrances de Christ, et participant de la gloire qui doit être manifestée:",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-31-matin",
+    "date": "2026-12-31T05:00:00+00:00",
+    "dateDisplay": "31/ 12/ 26",
+    "timeOfDay": "matin",
+    "reference": "Jean 16:1",
+    "textFr": "Je vous ai dit ces choses, afin qu'elles ne soient pas pour vous une occasion de chute.",
+    "textFon": null
+  },
+  {
+    "id": "2026-12-31-soir",
+    "date": "2026-12-31T17:00:00+00:00",
+    "dateDisplay": "31/ 12/ 26",
+    "timeOfDay": "soir",
+    "reference": "Jacques 1:2",
+    "textFr": "Mes frères, regardez comme un sujet de joie complète les diverses épreuves auxquelles vous pouvez être exposés,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-01-matin",
+    "date": "2027-01-01T05:00:00+00:00",
+    "dateDisplay": "01/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 130:2",
+    "textFr": "Seigneur, écoute ma voix! Que tes oreilles soient attentives A la voix de mes supplications!",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-01-soir",
+    "date": "2027-01-01T17:00:00+00:00",
+    "dateDisplay": "01/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Philippiens 2:1",
+    "textFr": "Si donc il y a quelque consolation en Christ, s'il y a quelque soulagement dans la charité, s'il y a quelque union d'esprit, s'il y a quelque compassion et quelque miséricorde,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-02-matin",
+    "date": "2027-01-02T05:00:00+00:00",
+    "dateDisplay": "02/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Timothée 4:1",
+    "textFr": "Je t'en conjure devant Dieu et devant Jésus-Christ, qui doit juger les vivants et les morts, et au nom de son apparition et de son royaume,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-02-soir",
+    "date": "2027-01-02T17:00:00+00:00",
+    "dateDisplay": "02/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Galates 5:1",
+    "textFr": "C'est pour la liberté que Christ nous a affranchis. Demeurez donc fermes, et ne vous laissez pas mettre de nouveau sous le joug de la servitude.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-03-matin",
+    "date": "2027-01-03T05:00:00+00:00",
+    "dateDisplay": "03/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 146:2",
+    "textFr": "Je louerai l'Eternel tant que je vivrai, Je célébrerai mon Dieu tant que j'existerai.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-03-soir",
+    "date": "2027-01-03T17:00:00+00:00",
+    "dateDisplay": "03/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 139:2",
+    "textFr": "Tu sais quand je m'assieds et quand je me lève, Tu pénètres de loin ma pensée;",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-04-matin",
+    "date": "2027-01-04T05:00:00+00:00",
+    "dateDisplay": "04/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Apocalypse 21:1",
+    "textFr": "Puis je vis un nouveau ciel et une nouvelle terre; car le premier ciel et la première terre avaient disparu, et la mer n'était plus.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-04-soir",
+    "date": "2027-01-04T17:00:00+00:00",
+    "dateDisplay": "04/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Jean 5:1",
+    "textFr": "Quiconque croit que Jésus est le Christ, est né de Dieu, et quiconque aime celui qui l'a engendré aime aussi celui qui est né de lui.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-05-matin",
+    "date": "2027-01-05T05:00:00+00:00",
+    "dateDisplay": "05/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 23:2",
+    "textFr": "Il me fait reposer dans de verts pâturages, Il me dirige près des eaux paisibles.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-05-soir",
+    "date": "2027-01-05T17:00:00+00:00",
+    "dateDisplay": "05/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Romains 5:1",
+    "textFr": "Etant donc justifiés par la foi, nous avons la paix avec Dieu par notre Seigneur Jésus-Christ,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-06-matin",
+    "date": "2027-01-06T05:00:00+00:00",
+    "dateDisplay": "06/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Thessaloniciens 5:1",
+    "textFr": "Pour ce qui est des temps et des moments, vous n'avez pas besoin, frères, qu'on vous en écrive.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-06-soir",
+    "date": "2027-01-06T17:00:00+00:00",
+    "dateDisplay": "06/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 62:2",
+    "textFr": "Oui, c'est lui qui est mon rocher et mon salut; Ma haute retraite: je ne chancellerai guère.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-07-matin",
+    "date": "2027-01-07T05:00:00+00:00",
+    "dateDisplay": "07/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 6:1",
+    "textFr": "Enfants, obéissez à vos parents, selon le Seigneur, car cela est juste.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-07-soir",
+    "date": "2027-01-07T17:00:00+00:00",
+    "dateDisplay": "07/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 84:2",
+    "textFr": "Mon âme soupire et languit après les parvis de l'Eternel, Mon coeur et ma chair poussent des cris vers le Dieu vivant.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-08-matin",
+    "date": "2027-01-08T05:00:00+00:00",
+    "dateDisplay": "08/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 103:1",
+    "textFr": "De David. Mon âme, bénis l'Eternel! Que tout ce qui est en moi bénisse son saint nom!",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-08-soir",
+    "date": "2027-01-08T17:00:00+00:00",
+    "dateDisplay": "08/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 145:1",
+    "textFr": "Louange. De David. Je t'exalterai, ô mon Dieu, mon roi! Et je bénirai ton nom à toujours et à perpétuité.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-09-matin",
+    "date": "2027-01-09T05:00:00+00:00",
+    "dateDisplay": "09/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 150:1",
+    "textFr": "Louez l'Eternel! Louez Dieu dans son sanctuaire! Louez-le dans l'étendue, où éclate sa puissance!",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-09-soir",
+    "date": "2027-01-09T17:00:00+00:00",
+    "dateDisplay": "09/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 18:1",
+    "textFr": "Celui qui se tient à l'écart cherche ce qui lui plaît, Il s'irrite contre tout ce qui est sage.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-10-matin",
+    "date": "2027-01-10T05:00:00+00:00",
+    "dateDisplay": "10/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 19:2",
+    "textFr": "Le jour en instruit un autre jour, La nuit en donne connaissance à une autre nuit.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-10-soir",
+    "date": "2027-01-10T17:00:00+00:00",
+    "dateDisplay": "10/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 91:1",
+    "textFr": "Celui qui demeure sous l'abri du Très-Haut Repose à l'ombre du Tout Puissant.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-11-matin",
+    "date": "2027-01-11T05:00:00+00:00",
+    "dateDisplay": "11/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 13:2",
+    "textFr": "N'oubliez pas l'hospitalité; car, en l'exerçant, quelques-uns ont logé des anges, sans le savoir.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-11-soir",
+    "date": "2027-01-11T17:00:00+00:00",
+    "dateDisplay": "11/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Corinthiens 13:2",
+    "textFr": "Et quand j'aurais le don de prophétie, la science de tous les mystères et toute la connaissance, quand j'aurais même toute la foi jusqu'à transporter des montagnes, si je n'ai pas la charité, je ne suis rien.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-12-matin",
+    "date": "2027-01-12T05:00:00+00:00",
+    "dateDisplay": "12/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 51:3",
+    "textFr": "Car je reconnais mes transgressions, Et mon péché est constamment devant moi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-12-soir",
+    "date": "2027-01-12T17:00:00+00:00",
+    "dateDisplay": "12/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 61:4",
+    "textFr": "Ils rebâtiront sur d'anciennes ruines, Ils relèveront d'antiques décombres, Ils renouvelleront des villes ravagées, Dévastées depuis longtemps.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-13-matin",
+    "date": "2027-01-13T05:00:00+00:00",
+    "dateDisplay": "13/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 8:3",
+    "textFr": "Quand je contemple les cieux, ouvrage de tes mains, La lune et les étoiles que tu as créées:",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-13-soir",
+    "date": "2027-01-13T17:00:00+00:00",
+    "dateDisplay": "13/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Colossiens 1:3",
+    "textFr": "Nous rendons grâces à Dieu, le Père de notre Seigneur Jésus-Christ, et nous ne cessons de prier pour vous,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-14-matin",
+    "date": "2027-01-14T05:00:00+00:00",
+    "dateDisplay": "14/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 1:3",
+    "textFr": "Béni soit Dieu, le Père de notre Seigneur Jésus-Christ, qui nous a bénis de toutes sortes de bénédictions spirituelles dans les lieux célestes en Christ!",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-14-soir",
+    "date": "2027-01-14T17:00:00+00:00",
+    "dateDisplay": "14/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 92:3",
+    "textFr": "Sur l'instrument à dix cordes et sur le luth, Aux sons de la harpe.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-15-matin",
+    "date": "2027-01-15T05:00:00+00:00",
+    "dateDisplay": "15/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 133:3",
+    "textFr": "C'est comme la rosée de l'Hermon, Qui descend sur les montagnes de Sion; Car c'est là que l'Eternel envoie la bénédiction, La vie, pour l'éternité.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-15-soir",
+    "date": "2027-01-15T17:00:00+00:00",
+    "dateDisplay": "15/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 53:2",
+    "textFr": "Il s'est élevé devant lui comme une faible plante, Comme un rejeton qui sort d'une terre desséchée; Il n'avait ni beauté, ni éclat pour attirer nos regards, Et son aspect n'avait rien pour nous plaire.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-16-matin",
+    "date": "2027-01-16T05:00:00+00:00",
+    "dateDisplay": "16/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 3:2",
+    "textFr": "Car ils prolongeront les jours et les années de ta vie, Et ils augmenteront ta paix.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-16-soir",
+    "date": "2027-01-16T17:00:00+00:00",
+    "dateDisplay": "16/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 7:2",
+    "textFr": "Car on vous jugera du jugement dont vous jugez, et l'on vous mesurera avec la mesure dont vous mesurez.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-17-matin",
+    "date": "2027-01-17T05:00:00+00:00",
+    "dateDisplay": "17/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 28:19",
+    "textFr": "Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-17-soir",
+    "date": "2027-01-17T17:00:00+00:00",
+    "dateDisplay": "17/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 2:4",
+    "textFr": "Mais Dieu, qui est riche en miséricorde, à cause du grand amour dont il nous a aimés,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-18-matin",
+    "date": "2027-01-18T05:00:00+00:00",
+    "dateDisplay": "18/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 116:2",
+    "textFr": "Car il a penché son oreille vers moi; Et je l'invoquerai toute ma vie.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-18-soir",
+    "date": "2027-01-18T17:00:00+00:00",
+    "dateDisplay": "18/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Corinthiens 15:2",
+    "textFr": "et par lequel vous êtes sauvés, si vous le retenez tel que je vous l'ai annoncé; autrement, vous auriez cru en vain.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-19-matin",
+    "date": "2027-01-19T05:00:00+00:00",
+    "dateDisplay": "19/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 8:2",
+    "textFr": "En effet, la loi de l'esprit de vie en Jésus-Christ m'a affranchi de la loi du péché et de la mort.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-19-soir",
+    "date": "2027-01-19T17:00:00+00:00",
+    "dateDisplay": "19/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 5:2",
+    "textFr": "Aussi nous gémissons dans cette tente, désirant revêtir notre domicile céleste,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-20-matin",
+    "date": "2027-01-20T05:00:00+00:00",
+    "dateDisplay": "20/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Philippiens 1:4",
+    "textFr": "ne cessant, dans toutes mes prières pour vous tous, de manifester ma joie",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-20-soir",
+    "date": "2027-01-20T17:00:00+00:00",
+    "dateDisplay": "20/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 14:2",
+    "textFr": "Il y a plusieurs demeures dans la maison de mon Père. Si cela n'était pas, je vous l'aurais dit. Je vais vous préparer une place.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-21-matin",
+    "date": "2027-01-21T05:00:00+00:00",
+    "dateDisplay": "21/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 12:2",
+    "textFr": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-21-soir",
+    "date": "2027-01-21T17:00:00+00:00",
+    "dateDisplay": "21/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 3:2",
+    "textFr": "qui vint, lui, auprès de Jésus, de nuit, et lui dit: Rabbi, nous savons que tu es un docteur venu de Dieu; car personne ne peut faire ces miracles que tu fais, si Dieu n'est avec lui.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-22-matin",
+    "date": "2027-01-22T05:00:00+00:00",
+    "dateDisplay": "22/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Jean 1:2",
+    "textFr": "car la vie a été manifestée, et nous l'avons vue et nous lui rendons témoignage, et nous vous annonçons la vie éternelle, qui était auprès du Père et qui nous a été manifestée, -",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-22-soir",
+    "date": "2027-01-22T17:00:00+00:00",
+    "dateDisplay": "22/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Timothée 1:3",
+    "textFr": "Je rends grâces à Dieu, que mes ancêtres ont servi, et que je sers avec une conscience pure, de ce que nuit et jour je me souviens continuellement de toi dans mes prières,",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-23-matin",
+    "date": "2027-01-23T05:00:00+00:00",
+    "dateDisplay": "23/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 12:2",
+    "textFr": "Je connais un homme en Christ, qui fut, il y a quatorze ans, ravi jusqu'au troisième ciel si ce fut dans son corps je ne sais, si ce fut hors de son corps je ne sais, Dieu le sait).",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-23-soir",
+    "date": "2027-01-23T17:00:00+00:00",
+    "dateDisplay": "23/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 4:2",
+    "textFr": "Car je vous donne de bons conseils: Ne rejetez pas mon enseignement.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-24-matin",
+    "date": "2027-01-24T05:00:00+00:00",
+    "dateDisplay": "24/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 42:3",
+    "textFr": "Mes larmes sont ma nourriture jour et nuit, Pendant qu'on me dit sans cesse: Où est ton Dieu?",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-24-soir",
+    "date": "2027-01-24T17:00:00+00:00",
+    "dateDisplay": "24/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 40:2",
+    "textFr": "Parlez au coeur de Jérusalem, et criez lui Que sa servitude est finie, Que son iniquité est expiée, Qu'elle a reçu de la main de l'Eternel Au double de tous ses péchés.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-25-matin",
+    "date": "2027-01-25T05:00:00+00:00",
+    "dateDisplay": "25/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Philippiens 4:2",
+    "textFr": "J'exhorte Evodie et j'exhorte Syntyche à être d'un même sentiment dans le Seigneur.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-25-soir",
+    "date": "2027-01-25T17:00:00+00:00",
+    "dateDisplay": "25/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 147:2",
+    "textFr": "L'Eternel rebâtit Jérusalem, Il rassemble les exilés d'Israël;",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-26-matin",
+    "date": "2027-01-26T05:00:00+00:00",
+    "dateDisplay": "26/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 5:3",
+    "textFr": "Heureux les pauvres en esprit, car le royaume des cieux est à eux!",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-26-soir",
+    "date": "2027-01-26T17:00:00+00:00",
+    "dateDisplay": "26/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 4:3",
+    "textFr": "Si notre Evangile est encore voilé, il est voilé pour ceux qui périssent;",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-27-matin",
+    "date": "2027-01-27T05:00:00+00:00",
+    "dateDisplay": "27/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 55:2",
+    "textFr": "Pourquoi pesez-vous de l'argent pour ce qui ne nourrit pas? Pourquoi travaillez-vous pour ce qui ne rassasie pas? Ecoutez-moi donc, et vous mangerez ce qui est bon, Et votre âme se délectera de mets succulents.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-27-soir",
+    "date": "2027-01-27T17:00:00+00:00",
+    "dateDisplay": "27/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 43:2",
+    "textFr": "Si tu traverses les eaux, je serai avec toi; Et les fleuves, ils ne te submergeront point; Si tu marches dans le feu, tu ne te brûleras pas, Et la flamme ne t'embrasera pas.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-28-matin",
+    "date": "2027-01-28T05:00:00+00:00",
+    "dateDisplay": "28/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Apocalypse 3:2",
+    "textFr": "Sois vigilant, et affermis le reste qui est près de mourir; car je n'ai pas trouvé tes oeuvres parfaites devant mon Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-28-soir",
+    "date": "2027-01-28T17:00:00+00:00",
+    "dateDisplay": "28/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 11:2",
+    "textFr": "Jean, ayant entendu parler dans sa prison des oeuvres du Christ, lui fit dire par ses disciples:",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-29-matin",
+    "date": "2027-01-29T05:00:00+00:00",
+    "dateDisplay": "29/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 4:2",
+    "textFr": "Car cette bonne nouvelle nous a été annoncée aussi bien qu'à eux; mais la parole qui leur fut annoncée ne leur servit de rien, parce qu'elle ne trouva pas de la foi chez ceux qui l'entendirent.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-29-soir",
+    "date": "2027-01-29T17:00:00+00:00",
+    "dateDisplay": "29/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 63:3",
+    "textFr": "Car ta bonté vaut mieux que la vie: Mes lèvres célèbrent tes louanges.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-30-matin",
+    "date": "2027-01-30T05:00:00+00:00",
+    "dateDisplay": "30/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 31:11",
+    "textFr": "Le coeur de son mari a confiance en elle, Et les produits ne lui feront pas défaut.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-30-soir",
+    "date": "2027-01-30T17:00:00+00:00",
+    "dateDisplay": "30/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 126:4",
+    "textFr": "Eternel, ramène nos captifs, Comme des ruisseaux dans le midi!",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-31-matin",
+    "date": "2027-01-31T05:00:00+00:00",
+    "dateDisplay": "31/ 01/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 112:2",
+    "textFr": "Sa postérité sera puissante sur la terre, La génération des hommes droits sera bénie.",
+    "textFon": null
+  },
+  {
+    "id": "2027-01-31-soir",
+    "date": "2027-01-31T17:00:00+00:00",
+    "dateDisplay": "31/ 01/ 27",
+    "timeOfDay": "soir",
+    "reference": "Galates 6:2",
+    "textFr": "Portez les fardeaux les uns des autres, et vous accomplirez ainsi la loi de Christ.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-01-matin",
+    "date": "2027-02-01T05:00:00+00:00",
+    "dateDisplay": "01/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 3:2",
+    "textFr": "si du moins vous avez appris quelle est la dispensation de la grâce de Dieu, qui m'a été donnée pour vous.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-01-soir",
+    "date": "2027-02-01T17:00:00+00:00",
+    "dateDisplay": "01/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 15:2",
+    "textFr": "Tout sarment qui est en moi et qui ne porte pas de fruit, il le retranche; et tout sarment qui porte du fruit, il l'émonde, afin qu'il porte encore plus de fruit.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-02-matin",
+    "date": "2027-02-02T05:00:00+00:00",
+    "dateDisplay": "02/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 37:2",
+    "textFr": "Car ils sont fauchés aussi vite que l'herbe, Et ils se flétrissent comme le gazon vert.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-02-soir",
+    "date": "2027-02-02T17:00:00+00:00",
+    "dateDisplay": "02/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 16:2",
+    "textFr": "Toutes les voies de l'homme sont pures à ses yeux; Mais celui qui pèse les esprits, c'est l'Eternel.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-03-matin",
+    "date": "2027-02-03T05:00:00+00:00",
+    "dateDisplay": "03/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Colossiens 3:2",
+    "textFr": "Affectionnez-vous aux choses d'en haut, et non à celles qui sont sur la terre.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-03-soir",
+    "date": "2027-02-03T17:00:00+00:00",
+    "dateDisplay": "03/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 16:3",
+    "textFr": "Les saints qui sont dans le pays, Les hommes pieux sont l'objet de toute mon affection.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-04-matin",
+    "date": "2027-02-04T05:00:00+00:00",
+    "dateDisplay": "04/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 100:3",
+    "textFr": "Sachez que l'Eternel est Dieu! C'est lui qui nous a faits, et nous lui appartenons; Nous sommes son peuple, et le troupeau de son pâturage.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-04-soir",
+    "date": "2027-02-04T17:00:00+00:00",
+    "dateDisplay": "04/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 41:2",
+    "textFr": "Qui a suscité de l'orient Celui que le salut appelle à sa suite? Qui lui a livré les nations et assujetti des rois? Qui a réduit leur glaive en poussière, Et leur arc en un chaume qui s'envole?",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-05-matin",
+    "date": "2027-02-05T05:00:00+00:00",
+    "dateDisplay": "05/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 10:2",
+    "textFr": "Mais celui qui entre par la porte est le berger des brebis.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-05-soir",
+    "date": "2027-02-05T17:00:00+00:00",
+    "dateDisplay": "05/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 123:3",
+    "textFr": "Aie pitié de nous, Eternel, aie pitié de nous! Car nous sommes assez rassasiés de mépris;",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-06-matin",
+    "date": "2027-02-06T05:00:00+00:00",
+    "dateDisplay": "06/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 11:2",
+    "textFr": "Pour l'avoir possédée, les anciens ont obtenu un témoignage favorable.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-06-soir",
+    "date": "2027-02-06T17:00:00+00:00",
+    "dateDisplay": "06/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 127:3",
+    "textFr": "Voici, des fils sont un héritage de l'Eternel, Le fruit des entrailles est une récompense.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-07-matin",
+    "date": "2027-02-07T05:00:00+00:00",
+    "dateDisplay": "07/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 27:2",
+    "textFr": "Quand des méchants s'avancent contre moi, Pour dévorer ma chair, Ce sont mes persécuteurs et mes ennemis Qui chancellent et tombent.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-07-soir",
+    "date": "2027-02-07T17:00:00+00:00",
+    "dateDisplay": "07/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 34:2",
+    "textFr": "Que mon âme se glorifie en l'Eternel! Que les malheureux écoutent et se réjouissent!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-08-matin",
+    "date": "2027-02-08T05:00:00+00:00",
+    "dateDisplay": "08/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 1:3",
+    "textFr": "Béni soit Dieu, le Père de notre Seigneur Jésus-Christ, le Père des miséricordes et le Dieu de toute consolation,",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-08-soir",
+    "date": "2027-02-08T17:00:00+00:00",
+    "dateDisplay": "08/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 1:3",
+    "textFr": "Toutes choses ont été faites par elle, et rien de ce qui a été fait n'a été fait sans elle.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-09-matin",
+    "date": "2027-02-09T05:00:00+00:00",
+    "dateDisplay": "09/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jacques 4:2",
+    "textFr": "Vous convoitez, et vous ne possédez pas; vous êtes meurtriers et envieux, et vous ne pouvez pas obtenir; vous avez des querelles et des luttes, et vous ne possédez pas, parce que vous ne demandez pas.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-09-soir",
+    "date": "2027-02-09T17:00:00+00:00",
+    "dateDisplay": "09/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 46:3",
+    "textFr": "Quand les flots de la mer mugissent, écument, Se soulèvent jusqu'à faire trembler les montagnes. -Pause.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-10-matin",
+    "date": "2027-02-10T05:00:00+00:00",
+    "dateDisplay": "10/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Pierre 1:4",
+    "textFr": "pour un héritage qui ne se peut ni corrompre, ni souiller, ni flétrir, lequel vous est réservé dans les cieux,",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-10-soir",
+    "date": "2027-02-10T17:00:00+00:00",
+    "dateDisplay": "10/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 121:3",
+    "textFr": "Il ne permettra point que ton pied chancelle; Celui qui te garde ne sommeillera point.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-11-matin",
+    "date": "2027-02-11T05:00:00+00:00",
+    "dateDisplay": "11/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 12:2",
+    "textFr": "ayant les regards sur Jésus, le chef et le consommateur de la foi, qui, en vue de la joie qui lui était réservée, a souffert la croix, méprisé l'ignominie, et s'est assis à la droite du trône de Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-11-soir",
+    "date": "2027-02-11T17:00:00+00:00",
+    "dateDisplay": "11/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 6:3",
+    "textFr": "Mais quand tu fais l'aumône, que ta main gauche ne sache pas ce que fait ta droite,",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-12-matin",
+    "date": "2027-02-12T05:00:00+00:00",
+    "dateDisplay": "12/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 118:2",
+    "textFr": "Qu'Israël dise: Car sa miséricorde dure à toujours!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-12-soir",
+    "date": "2027-02-12T17:00:00+00:00",
+    "dateDisplay": "12/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 1:2",
+    "textFr": "Mais qui trouve son plaisir dans la loi de l'Eternel, Et qui la médite jour et nuit!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-13-matin",
+    "date": "2027-02-13T05:00:00+00:00",
+    "dateDisplay": "13/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Jean 4:2",
+    "textFr": "Reconnaissez à ceci l'Esprit de Dieu: tout esprit qui confesse Jésus-Christ venu en chair est de Dieu;",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-13-soir",
+    "date": "2027-02-13T17:00:00+00:00",
+    "dateDisplay": "13/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Romains 15:2",
+    "textFr": "Que chacun de nous complaise au prochain pour ce qui est bien en vue de l'édification.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-14-matin",
+    "date": "2027-02-14T05:00:00+00:00",
+    "dateDisplay": "14/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Pierre 5:2",
+    "textFr": "Paissez le troupeau de Dieu qui est sous votre garde, non par contrainte, mais volontairement, selon Dieu; non pour un gain sordide, mais avec dévouement;",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-14-soir",
+    "date": "2027-02-14T17:00:00+00:00",
+    "dateDisplay": "14/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 16:2",
+    "textFr": "Ils vous excluront des synagogues; et même l'heure vient où quiconque vous fera mourir croira rendre un culte à Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-15-matin",
+    "date": "2027-02-15T05:00:00+00:00",
+    "dateDisplay": "15/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jacques 1:3",
+    "textFr": "sachant que l'épreuve de votre foi produit la patience.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-15-soir",
+    "date": "2027-02-15T17:00:00+00:00",
+    "dateDisplay": "15/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 130:3",
+    "textFr": "Si tu gardais le souvenir des iniquités, Eternel, Seigneur, qui pourrait subsister?",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-16-matin",
+    "date": "2027-02-16T05:00:00+00:00",
+    "dateDisplay": "16/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Philippiens 2:2",
+    "textFr": "rendez ma joie parfaite, ayant un même sentiment, un même amour, une même âme, une même pensée.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-16-soir",
+    "date": "2027-02-16T17:00:00+00:00",
+    "dateDisplay": "16/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Timothée 4:2",
+    "textFr": "prêche la parole, insiste en toute occasion, favorable ou non, reprends, censure, exhorte, avec toute douceur et en instruisant.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-17-matin",
+    "date": "2027-02-17T05:00:00+00:00",
+    "dateDisplay": "17/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Galates 5:2",
+    "textFr": "Voici, moi Paul, je vous dis que, si vous vous faites circoncire, Christ ne vous servira de rien.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-17-soir",
+    "date": "2027-02-17T17:00:00+00:00",
+    "dateDisplay": "17/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 146:4",
+    "textFr": "Leur souffle s'en va, ils rentrent dans la terre, Et ce même jour leurs desseins périssent.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-18-matin",
+    "date": "2027-02-18T05:00:00+00:00",
+    "dateDisplay": "18/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 139:3",
+    "textFr": "Tu sais quand je marche et quand je me couche, Et tu pénètres toutes mes voies.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-18-soir",
+    "date": "2027-02-18T17:00:00+00:00",
+    "dateDisplay": "18/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Apocalypse 21:2",
+    "textFr": "Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse qui s'est parée pour son époux.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-19-matin",
+    "date": "2027-02-19T05:00:00+00:00",
+    "dateDisplay": "19/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Jean 5:2",
+    "textFr": "Nous connaissons que nous aimons les enfants de Dieu, lorsque nous aimons Dieu, et que nous pratiquons ses commandements.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-19-soir",
+    "date": "2027-02-19T17:00:00+00:00",
+    "dateDisplay": "19/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 23:3",
+    "textFr": "Il restaure mon âme, Il me conduit dans les sentiers de la justice, A cause de son nom.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-20-matin",
+    "date": "2027-02-20T05:00:00+00:00",
+    "dateDisplay": "20/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 5:2",
+    "textFr": "qui nous devons d'avoir eu par la foi accès à cette grâce, dans laquelle nous demeurons fermes, et nous nous glorifions dans l'espérance de la gloire de Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-20-soir",
+    "date": "2027-02-20T17:00:00+00:00",
+    "dateDisplay": "20/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Thessaloniciens 5:2",
+    "textFr": "Car vous savez bien vous-mêmes que le jour du Seigneur viendra comme un voleur dans la nuit.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-21-matin",
+    "date": "2027-02-21T05:00:00+00:00",
+    "dateDisplay": "21/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 62:3",
+    "textFr": "Jusqu'à quand vous jetterez-vous sur un homme, Chercherez-vous tous à l'abattre, Comme une muraille qui penche, Comme une clôture qu'on renverse?",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-21-soir",
+    "date": "2027-02-21T17:00:00+00:00",
+    "dateDisplay": "21/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 6:2",
+    "textFr": "Honore ton père et ta mère c'est le premier commandement avec une promesse,",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-22-matin",
+    "date": "2027-02-22T05:00:00+00:00",
+    "dateDisplay": "22/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 84:3",
+    "textFr": "Le passereau même trouve une maison, Et l'hirondelle un nid où elle dépose ses petits... Tes autels, Eternel des armées! Mon roi et mon Dieu!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-22-soir",
+    "date": "2027-02-22T17:00:00+00:00",
+    "dateDisplay": "22/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 103:2",
+    "textFr": "Mon âme, bénis l'Eternel, Et n'oublie aucun de ses bienfaits!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-23-matin",
+    "date": "2027-02-23T05:00:00+00:00",
+    "dateDisplay": "23/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 145:2",
+    "textFr": "Chaque jour je te bénirai, Et je célébrerai ton nom à toujours et à perpétuité.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-23-soir",
+    "date": "2027-02-23T17:00:00+00:00",
+    "dateDisplay": "23/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 150:2",
+    "textFr": "Louez-le pour ses hauts faits! Louez-le selon l'immensité de sa grandeur!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-24-matin",
+    "date": "2027-02-24T05:00:00+00:00",
+    "dateDisplay": "24/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 18:2",
+    "textFr": "Ce n'est pas à l'intelligence que l'insensé prend plaisir, C'est à la manifestation de ses pensées.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-24-soir",
+    "date": "2027-02-24T17:00:00+00:00",
+    "dateDisplay": "24/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 19:3",
+    "textFr": "Ce n'est pas un langage, ce ne sont pas des paroles Dont le son ne soit point entendu:",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-25-matin",
+    "date": "2027-02-25T05:00:00+00:00",
+    "dateDisplay": "25/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 91:2",
+    "textFr": "Je dis à l'Eternel: Mon refuge et ma forteresse, Mon Dieu en qui je me confie!",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-25-soir",
+    "date": "2027-02-25T17:00:00+00:00",
+    "dateDisplay": "25/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 13:3",
+    "textFr": "Souvenez-vous des prisonniers, comme si vous étiez aussi prisonniers; de ceux qui sont maltraités, comme étant aussi vous-mêmes dans un corps.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-26-matin",
+    "date": "2027-02-26T05:00:00+00:00",
+    "dateDisplay": "26/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Corinthiens 13:3",
+    "textFr": "Et quand je distribuerais tous mes biens pour la nourriture des pauvres, quand je livrerais même mon corps pour être brûlé, si je n'ai pas la charité, cela ne me sert de rien.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-26-soir",
+    "date": "2027-02-26T17:00:00+00:00",
+    "dateDisplay": "26/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 51:4",
+    "textFr": "J'ai péché contre toi seul, Et j'ai fait ce qui est mal à tes yeux, En sorte que tu seras juste dans ta sentence, Sans reproche dans ton jugement.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-27-matin",
+    "date": "2027-02-27T05:00:00+00:00",
+    "dateDisplay": "27/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 61:6",
+    "textFr": "Mais vous, on vous appellera sacrificateurs de l'Eternel, On vous nommera serviteurs de notre Dieu; Vous mangerez les richesses des nations, Et vous vous glorifierez de leur gloire.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-27-soir",
+    "date": "2027-02-27T17:00:00+00:00",
+    "dateDisplay": "27/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 8:5",
+    "textFr": "Tu l'as fait de peu inférieur à Dieu, Et tu l'as couronné de gloire et de magnificence.",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-28-matin",
+    "date": "2027-02-28T05:00:00+00:00",
+    "dateDisplay": "28/ 02/ 27",
+    "timeOfDay": "matin",
+    "reference": "Colossiens 1:4",
+    "textFr": "ayant été informés de votre foi en Jésus-Christ et de votre charité pour tous les saints,",
+    "textFon": null
+  },
+  {
+    "id": "2027-02-28-soir",
+    "date": "2027-02-28T17:00:00+00:00",
+    "dateDisplay": "28/ 02/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 1:4",
+    "textFr": "En lui Dieu nous a élus avant la fondation du monde, pour que nous soyons saints et irrépréhensibles devant lui,",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-01-matin",
+    "date": "2027-03-01T05:00:00+00:00",
+    "dateDisplay": "01/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 92:4",
+    "textFr": "Tu me réjouis par tes oeuvres, ô Eternel! Et je chante avec allégresse l'ouvrage de tes mains.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-01-soir",
+    "date": "2027-03-01T17:00:00+00:00",
+    "dateDisplay": "01/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 53:3",
+    "textFr": "Méprisé et abandonné des hommes, Homme de douleur et habitué à la souffrance, Semblable à celui dont on détourne le visage, Nous l'avons dédaigné, nous n'avons fait de lui aucun cas.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-02-matin",
+    "date": "2027-03-02T05:00:00+00:00",
+    "dateDisplay": "02/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 3:3",
+    "textFr": "Que la bonté et la fidélité ne t'abandonnent pas; Lie-les à ton cou, écris-les sur la table de ton coeur.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-02-soir",
+    "date": "2027-03-02T17:00:00+00:00",
+    "dateDisplay": "02/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 7:3",
+    "textFr": "Pourquoi vois-tu la paille qui est dans l'oeil de ton frère, et n'aperçois-tu pas la poutre qui est dans ton oeil?",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-03-matin",
+    "date": "2027-03-03T05:00:00+00:00",
+    "dateDisplay": "03/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 28:20",
+    "textFr": "et enseignez-leur à observer tout ce que je vous ai prescrit. Et voici, je suis avec vous tous les jours, jusqu'à la fin du monde.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-03-soir",
+    "date": "2027-03-03T17:00:00+00:00",
+    "dateDisplay": "03/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 2:5",
+    "textFr": "nous qui étions morts par nos offenses, nous a rendus à la vie avec Christ c'est par grâce que vous êtes sauvés);",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-04-matin",
+    "date": "2027-03-04T05:00:00+00:00",
+    "dateDisplay": "04/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 116:3",
+    "textFr": "Les liens de la mort m'avaient environné, Et les angoisses du sépulcre m'avaient saisi; J'étais en proie à la détresse et à la douleur.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-04-soir",
+    "date": "2027-03-04T17:00:00+00:00",
+    "dateDisplay": "04/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Corinthiens 15:3",
+    "textFr": "Je vous ai enseigné avant tout, comme je l'avais aussi reçu, que Christ est mort pour nos péchés, selon les Ecritures;",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-05-matin",
+    "date": "2027-03-05T05:00:00+00:00",
+    "dateDisplay": "05/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 8:3",
+    "textFr": "Car chose impossible à la loi, parce que la chair la rendait sans force, -Dieu a condamné le péché dans la chair, en envoyant, à cause du péché, son propre Fils dans une chair semblable à celle du péché,",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-05-soir",
+    "date": "2027-03-05T17:00:00+00:00",
+    "dateDisplay": "05/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 5:3",
+    "textFr": "si du moins nous sommes trouvés vêtus et non pas nus.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-06-matin",
+    "date": "2027-03-06T05:00:00+00:00",
+    "dateDisplay": "06/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Philippiens 1:5",
+    "textFr": "au sujet de la part que vous prenez à l'Evangile, depuis le premier jour jusqu'à maintenant.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-06-soir",
+    "date": "2027-03-06T17:00:00+00:00",
+    "dateDisplay": "06/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 14:3",
+    "textFr": "Et, lorsque je m'en serai allé, et que je vous aurai préparé une place, je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-07-matin",
+    "date": "2027-03-07T05:00:00+00:00",
+    "dateDisplay": "07/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 12:3",
+    "textFr": "Par la grâce qui m'a été donnée, je dis à chacun de vous de n'avoir pas de lui-même une trop haute opinion, mais de revêtir des sentiments modestes, selon la mesure de foi que Dieu a départie à chacun.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-07-soir",
+    "date": "2027-03-07T17:00:00+00:00",
+    "dateDisplay": "07/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 3:3",
+    "textFr": "Jésus lui répondit: En vérité, en vérité, je te le dis, si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-08-matin",
+    "date": "2027-03-08T05:00:00+00:00",
+    "dateDisplay": "08/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Jean 1:3",
+    "textFr": "ce que nous avons vu et entendu, nous vous l'annonçons, à vous aussi, afin que vous aussi vous soyez en communion avec nous. Or, notre communion est avec le Père et avec son Fils Jésus-Christ.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-08-soir",
+    "date": "2027-03-08T17:00:00+00:00",
+    "dateDisplay": "08/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Timothée 1:4",
+    "textFr": "me rappelant tes larmes, et désirant te voir afin d'être rempli de joie,",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-09-matin",
+    "date": "2027-03-09T05:00:00+00:00",
+    "dateDisplay": "09/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 12:3",
+    "textFr": "Et je sais que cet homme si ce fut dans son corps ou sans son corps je ne sais, Dieu le sait)",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-09-soir",
+    "date": "2027-03-09T17:00:00+00:00",
+    "dateDisplay": "09/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 4:3",
+    "textFr": "J'étais un fils pour mon père, Un fils tendre et unique auprès de ma mère.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-10-matin",
+    "date": "2027-03-10T05:00:00+00:00",
+    "dateDisplay": "10/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 42:4",
+    "textFr": "Je me rappelle avec effusion de coeur Quand je marchais entouré de la foule, Et que je m'avançais à sa tête vers la maison de Dieu, Au milieu des cris de joie et des actions de grâces D'une multitude en fête.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-10-soir",
+    "date": "2027-03-10T17:00:00+00:00",
+    "dateDisplay": "10/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 40:3",
+    "textFr": "Une voix crie: Préparez au désert le chemin de l'Eternel, Aplanissez dans les lieux arides Une route pour notre Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-11-matin",
+    "date": "2027-03-11T05:00:00+00:00",
+    "dateDisplay": "11/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Philippiens 4:3",
+    "textFr": "Et toi aussi, fidèle collègue, oui, je te prie de les aider, elles qui ont combattu pour l'Evangile avec moi, et avec Clément et mes autres compagnons d'oeuvre, dont les noms sont dans le livre de vie.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-11-soir",
+    "date": "2027-03-11T17:00:00+00:00",
+    "dateDisplay": "11/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 147:3",
+    "textFr": "Il guérit ceux qui ont le coeur brisé, Et il panse leurs blessures.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-12-matin",
+    "date": "2027-03-12T05:00:00+00:00",
+    "dateDisplay": "12/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 5:4",
+    "textFr": "Heureux les affligés, car ils seront consolés!",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-12-soir",
+    "date": "2027-03-12T17:00:00+00:00",
+    "dateDisplay": "12/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 4:4",
+    "textFr": "pour les incrédules dont le dieu de ce siècle a aveuglé l'intelligence, afin qu'ils ne vissent pas briller la splendeur de l'Evangile de la gloire de Christ, qui est l'image de Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-13-matin",
+    "date": "2027-03-13T05:00:00+00:00",
+    "dateDisplay": "13/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 55:3",
+    "textFr": "Prêtez l'oreille, et venez à moi, Ecoutez, et votre âme vivra: Je traiterai avec vous une alliance éternelle, Pour rendre durables mes faveurs envers David.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-13-soir",
+    "date": "2027-03-13T17:00:00+00:00",
+    "dateDisplay": "13/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 43:3",
+    "textFr": "Car je suis l'Eternel, ton Dieu, Le Saint d'Israël, ton sauveur; Je donne l'Egypte pour ta rançon, L'Ethiopie et Saba à ta place.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-14-matin",
+    "date": "2027-03-14T05:00:00+00:00",
+    "dateDisplay": "14/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Apocalypse 3:3",
+    "textFr": "Rappelle-toi donc comment tu as reçu et entendu, et garde, et repens-toi. Si tu ne veilles pas, je viendrai comme un voleur, et tu ne sauras pas à quelle heure je viendrai sur toi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-14-soir",
+    "date": "2027-03-14T17:00:00+00:00",
+    "dateDisplay": "14/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 11:3",
+    "textFr": "Es-tu celui qui doit venir, ou devons-nous en attendre un autre?",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-15-matin",
+    "date": "2027-03-15T05:00:00+00:00",
+    "dateDisplay": "15/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 4:3",
+    "textFr": "Pour nous qui avons cru, nous entrons dans le repos, selon qu'il dit: Je jurai dans ma colère: Ils n'entreront pas dans mon repos! Il dit cela, quoique ses oeuvres eussent été achevées depuis la création du monde.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-15-soir",
+    "date": "2027-03-15T17:00:00+00:00",
+    "dateDisplay": "15/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 63:4",
+    "textFr": "Je te bénirai donc toute ma vie, J'élèverai mes mains en ton nom.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-16-matin",
+    "date": "2027-03-16T05:00:00+00:00",
+    "dateDisplay": "16/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 31:12",
+    "textFr": "Elle lui fait du bien, et non du mal, Tous les jours de sa vie.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-16-soir",
+    "date": "2027-03-16T17:00:00+00:00",
+    "dateDisplay": "16/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 126:5",
+    "textFr": "Ceux qui sèment avec larmes Moissonneront avec chants d'allégresse.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-17-matin",
+    "date": "2027-03-17T05:00:00+00:00",
+    "dateDisplay": "17/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 112:3",
+    "textFr": "Il a dans sa maison bien-être et richesse, Et sa justice subsiste à jamais.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-17-soir",
+    "date": "2027-03-17T17:00:00+00:00",
+    "dateDisplay": "17/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Galates 6:3",
+    "textFr": "Si quelqu'un pense être quelque chose, quoiqu'il ne soit rien, il s'abuse lui-même.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-18-matin",
+    "date": "2027-03-18T05:00:00+00:00",
+    "dateDisplay": "18/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 3:4",
+    "textFr": "En les lisant, vous pouvez vous représenter l'intelligence que j'ai du mystère de Christ.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-18-soir",
+    "date": "2027-03-18T17:00:00+00:00",
+    "dateDisplay": "18/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 15:3",
+    "textFr": "Déjà vous êtes purs, à cause de la parole que je vous ai annoncée.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-19-matin",
+    "date": "2027-03-19T05:00:00+00:00",
+    "dateDisplay": "19/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 37:3",
+    "textFr": "Confie-toi en l'Eternel, et pratique le bien; Aie le pays pour demeure et la fidélité pour pâture.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-19-soir",
+    "date": "2027-03-19T17:00:00+00:00",
+    "dateDisplay": "19/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 16:3",
+    "textFr": "Recommande à l'Eternel tes oeuvres, Et tes projets réussiront.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-20-matin",
+    "date": "2027-03-20T05:00:00+00:00",
+    "dateDisplay": "20/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Colossiens 3:3",
+    "textFr": "Car vous êtes morts, et votre vie est cachée avec Christ en Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-20-soir",
+    "date": "2027-03-20T17:00:00+00:00",
+    "dateDisplay": "20/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 16:4",
+    "textFr": "On multiplie les idoles, on court après les dieux étrangers: Je ne répands pas leurs libations de sang, Je ne mets pas leurs noms sur mes lèvres.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-21-matin",
+    "date": "2027-03-21T05:00:00+00:00",
+    "dateDisplay": "21/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 100:4",
+    "textFr": "Entrez dans ses portes avec des louanges, Dans ses parvis avec des cantiques! Célébrez-le, bénissez son nom!",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-21-soir",
+    "date": "2027-03-21T17:00:00+00:00",
+    "dateDisplay": "21/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 41:3",
+    "textFr": "Il s'est mis à leur poursuite, il a parcouru avec bonheur Un chemin que son pied n'avait jamais foulé.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-22-matin",
+    "date": "2027-03-22T05:00:00+00:00",
+    "dateDisplay": "22/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 10:3",
+    "textFr": "Le portier lui ouvre, et les brebis entendent sa voix; il appelle par leur nom les brebis qui lui appartiennent, et il les conduit dehors.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-22-soir",
+    "date": "2027-03-22T17:00:00+00:00",
+    "dateDisplay": "22/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 123:4",
+    "textFr": "Notre âme est assez rassasiée Des moqueries des orgueilleux, du mépris des hautains.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-23-matin",
+    "date": "2027-03-23T05:00:00+00:00",
+    "dateDisplay": "23/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 11:3",
+    "textFr": "C'est par la foi que nous reconnaissons que le monde a été formé par la parole de Dieu, en sorte que ce qu'on voit n'a pas été fait de choses visibles.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-23-soir",
+    "date": "2027-03-23T17:00:00+00:00",
+    "dateDisplay": "23/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 127:5",
+    "textFr": "Heureux l'homme qui en a rempli son carquois! Ils ne seront pas confus, Quand ils parleront avec des ennemis à la porte.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-24-matin",
+    "date": "2027-03-24T05:00:00+00:00",
+    "dateDisplay": "24/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 27:3",
+    "textFr": "Si une armée se campait contre moi, Mon coeur n'aurait aucune crainte; Si une guerre s'élevait contre moi, Je serais malgré cela plein de confiance.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-24-soir",
+    "date": "2027-03-24T17:00:00+00:00",
+    "dateDisplay": "24/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 34:3",
+    "textFr": "Exaltez avec moi l'Eternel! Célébrons tous son nom!",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-25-matin",
+    "date": "2027-03-25T05:00:00+00:00",
+    "dateDisplay": "25/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 1:4",
+    "textFr": "qui nous console dans toutes nos afflictions, afin que, par la consolation dont nous sommes l'objet de la part de Dieu, nous puissions consoler ceux qui se trouvent dans quelque affliction!",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-25-soir",
+    "date": "2027-03-25T17:00:00+00:00",
+    "dateDisplay": "25/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 1:4",
+    "textFr": "En elle était la vie, et la vie était la lumière des hommes.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-26-matin",
+    "date": "2027-03-26T05:00:00+00:00",
+    "dateDisplay": "26/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jacques 4:3",
+    "textFr": "Vous demandez, et vous ne recevez pas, parce que vous demandez mal, dans le but de satisfaire vos passions.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-26-soir",
+    "date": "2027-03-26T17:00:00+00:00",
+    "dateDisplay": "26/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 46:4",
+    "textFr": "Il est un fleuve dont les courants réjouissent la cité de Dieu, Le sanctuaire des demeures du Très-Haut.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-27-matin",
+    "date": "2027-03-27T05:00:00+00:00",
+    "dateDisplay": "27/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Pierre 1:5",
+    "textFr": "vous qui, par la puissance de Dieu, êtes gardés par la foi pour le salut prêt à être révélé dans les derniers temps!",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-27-soir",
+    "date": "2027-03-27T17:00:00+00:00",
+    "dateDisplay": "27/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 121:4",
+    "textFr": "Voici, il ne sommeille ni ne dort, Celui qui garde Israël.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-28-matin",
+    "date": "2027-03-28T05:00:00+00:00",
+    "dateDisplay": "28/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 12:3",
+    "textFr": "Considérez, en effet, celui qui a supporté contre sa personne une telle opposition de la part des pécheurs, afin que vous ne vous lassiez point, l'âme découragée.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-28-soir",
+    "date": "2027-03-28T17:00:00+00:00",
+    "dateDisplay": "28/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 6:4",
+    "textFr": "afin que ton aumône se fasse en secret; et ton Père, qui voit dans le secret, te le rendra.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-29-matin",
+    "date": "2027-03-29T05:00:00+00:00",
+    "dateDisplay": "29/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 118:3",
+    "textFr": "Que la maison d'Aaron dise: Car sa miséricorde dure à toujours!",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-29-soir",
+    "date": "2027-03-29T17:00:00+00:00",
+    "dateDisplay": "29/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 1:3",
+    "textFr": "Il est comme un arbre planté près d'un courant d'eau, Qui donne son fruit en sa saison, Et dont le feuillage ne se flétrit point: Tout ce qu'il fait lui réussit.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-30-matin",
+    "date": "2027-03-30T05:00:00+00:00",
+    "dateDisplay": "30/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Jean 4:3",
+    "textFr": "et tout esprit qui ne confesse pas Jésus n'est pas de Dieu, c'est celui de l'antéchrist, dont vous avez appris la venue, et qui maintenant est déjà dans le monde.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-30-soir",
+    "date": "2027-03-30T17:00:00+00:00",
+    "dateDisplay": "30/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Romains 15:3",
+    "textFr": "Car Christ ne s'est point complu en lui-même, mais, selon qu'il est écrit: Les outrages de ceux qui t'insultent sont tombés sur moi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-31-matin",
+    "date": "2027-03-31T05:00:00+00:00",
+    "dateDisplay": "31/ 03/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Pierre 5:3",
+    "textFr": "non comme dominant sur ceux qui vous sont échus en partage, mais en étant les modèles du troupeau.",
+    "textFon": null
+  },
+  {
+    "id": "2027-03-31-soir",
+    "date": "2027-03-31T17:00:00+00:00",
+    "dateDisplay": "31/ 03/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 16:3",
+    "textFr": "Et ils agiront ainsi, parce qu'ils n'ont connu ni le Père ni moi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-01-matin",
+    "date": "2027-04-01T05:00:00+00:00",
+    "dateDisplay": "01/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jacques 1:4",
+    "textFr": "Mais il faut que la patience accomplisse parfaitement son oeuvre, afin que vous soyez parfaits et accomplis, sans faillir en rien.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-01-soir",
+    "date": "2027-04-01T17:00:00+00:00",
+    "dateDisplay": "01/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 130:4",
+    "textFr": "Mais le pardon se trouve auprès de toi, Afin qu'on te craigne.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-02-matin",
+    "date": "2027-04-02T05:00:00+00:00",
+    "dateDisplay": "02/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Philippiens 2:3",
+    "textFr": "Ne faites rien par esprit de parti ou par vaine gloire, mais que l'humilité vous fasse regarder les autres comme étant au-dessus de vous-mêmes.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-02-soir",
+    "date": "2027-04-02T17:00:00+00:00",
+    "dateDisplay": "02/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Timothée 4:3",
+    "textFr": "Car il viendra un temps où les hommes ne supporteront pas la saine doctrine; mais, ayant la démangeaison d'entendre des choses agréables, ils se donneront une foule de docteurs selon leurs propres désirs,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-03-matin",
+    "date": "2027-04-03T05:00:00+00:00",
+    "dateDisplay": "03/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Galates 5:3",
+    "textFr": "Et je proteste encore une fois à tout homme qui se fait circoncire, qu'il est tenu de pratiquer la loi tout entière.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-03-soir",
+    "date": "2027-04-03T17:00:00+00:00",
+    "dateDisplay": "03/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 146:5",
+    "textFr": "Heureux celui qui a pour secours le Dieu de Jacob, Qui met son espoir en l'Eternel, son Dieu!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-04-matin",
+    "date": "2027-04-04T05:00:00+00:00",
+    "dateDisplay": "04/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 139:4",
+    "textFr": "Car la parole n'est pas sur ma langue, Que déjà, ô Eternel! tu la connais entièrement.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-04-soir",
+    "date": "2027-04-04T17:00:00+00:00",
+    "dateDisplay": "04/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Apocalypse 21:3",
+    "textFr": "Et j'entendis du trône une forte voix qui disait: Voici le tabernacle de Dieu avec les hommes! Il habitera avec eux, et ils seront son peuple, et Dieu lui-même sera avec eux.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-05-matin",
+    "date": "2027-04-05T05:00:00+00:00",
+    "dateDisplay": "05/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Jean 5:3",
+    "textFr": "Car l'amour de Dieu consiste à garder ses commandements. Et ses commandements ne sont pas pénibles,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-05-soir",
+    "date": "2027-04-05T17:00:00+00:00",
+    "dateDisplay": "05/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 23:4",
+    "textFr": "Quand je marche dans la vallée de l'ombre de la mort, Je ne crains aucun mal, car tu es avec moi: Ta houlette et ton bâton me rassurent.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-06-matin",
+    "date": "2027-04-06T05:00:00+00:00",
+    "dateDisplay": "06/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 5:3",
+    "textFr": "Bien plus, nous nous glorifions même des afflictions, sachant que l'affliction produit la persévérance,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-06-soir",
+    "date": "2027-04-06T17:00:00+00:00",
+    "dateDisplay": "06/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Thessaloniciens 5:3",
+    "textFr": "Quand les hommes diront: Paix et sûreté! alors une ruine soudaine les surprendra, comme les douleurs de l'enfantement surprennent la femme enceinte, et ils n'échapperont point.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-07-matin",
+    "date": "2027-04-07T05:00:00+00:00",
+    "dateDisplay": "07/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 62:4",
+    "textFr": "Ils conspirent pour le précipiter de son poste élevé; Ils prennent plaisir au mensonge; Ils bénissent de leur bouche, Et ils maudissent dans leur coeur. -Pause.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-07-soir",
+    "date": "2027-04-07T17:00:00+00:00",
+    "dateDisplay": "07/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 6:3",
+    "textFr": "afin que tu sois heureux et que tu vives longtemps sur la terre.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-08-matin",
+    "date": "2027-04-08T05:00:00+00:00",
+    "dateDisplay": "08/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 84:4",
+    "textFr": "Heureux ceux qui habitent ta maison! Ils peuvent te célébrer encore. Pause.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-08-soir",
+    "date": "2027-04-08T17:00:00+00:00",
+    "dateDisplay": "08/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 103:3",
+    "textFr": "C'est lui qui pardonne toutes tes iniquités, Qui guérit toutes tes maladies;",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-09-matin",
+    "date": "2027-04-09T05:00:00+00:00",
+    "dateDisplay": "09/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 145:3",
+    "textFr": "L'Eternel est grand et très digne de louange, Et sa grandeur est insondable.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-09-soir",
+    "date": "2027-04-09T17:00:00+00:00",
+    "dateDisplay": "09/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 150:3",
+    "textFr": "Louez-le au son de la trompette! Louez-le avec le luth et la harpe!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-10-matin",
+    "date": "2027-04-10T05:00:00+00:00",
+    "dateDisplay": "10/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 18:3",
+    "textFr": "Quand vient le méchant, vient aussi le mépris; Et avec la honte, vient l'opprobre.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-10-soir",
+    "date": "2027-04-10T17:00:00+00:00",
+    "dateDisplay": "10/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 19:4",
+    "textFr": "Leur retentissement parcourt toute la terre, Leurs accents vont aux extrémités du monde, Où il a dressé une tente pour le soleil.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-11-matin",
+    "date": "2027-04-11T05:00:00+00:00",
+    "dateDisplay": "11/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 91:3",
+    "textFr": "Car c'est lui qui te délivre du filet de l'oiseleur, De la peste et de ses ravages.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-11-soir",
+    "date": "2027-04-11T17:00:00+00:00",
+    "dateDisplay": "11/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 13:5",
+    "textFr": "Ne vous livrez pas à l'amour de l'argent; contentez- vous de ce que vous avez; car Dieu lui-même a dit: Je ne te délaisserai point, et je ne t'abandonnerai point.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-12-matin",
+    "date": "2027-04-12T05:00:00+00:00",
+    "dateDisplay": "12/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Corinthiens 13:4",
+    "textFr": "La charité est patiente, elle est pleine de bonté; la charité n'est point envieuse; la charité ne se vante point, elle ne s'enfle point d'orgueil,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-12-soir",
+    "date": "2027-04-12T17:00:00+00:00",
+    "dateDisplay": "12/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 51:5",
+    "textFr": "Voici, je suis né dans l'iniquité, Et ma mère m'a conçu dans le péché.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-13-matin",
+    "date": "2027-04-13T05:00:00+00:00",
+    "dateDisplay": "13/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 61:7",
+    "textFr": "Au lieu de votre opprobre, vous aurez une portion double; Au lieu de l'ignominie, ils seront joyeux de leur part; Ils posséderont ainsi le double dans leur pays, Et leur joie sera éternelle.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-13-soir",
+    "date": "2027-04-13T17:00:00+00:00",
+    "dateDisplay": "13/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 8:6",
+    "textFr": "Tu lui as donné la domination sur les oeuvres de tes mains, Tu as tout mis sous ses pieds,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-14-matin",
+    "date": "2027-04-14T05:00:00+00:00",
+    "dateDisplay": "14/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Colossiens 1:5",
+    "textFr": "cause de l'espérance qui vous est réservée dans les cieux, et que la parole de la vérité, la parole de l'Evangile vous a précédemment fait connaître.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-14-soir",
+    "date": "2027-04-14T17:00:00+00:00",
+    "dateDisplay": "14/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 1:5",
+    "textFr": "nous ayant prédestinés dans son amour à être ses enfants d'adoption par Jésus-Christ, selon le bon plaisir de sa volonté,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-15-matin",
+    "date": "2027-04-15T05:00:00+00:00",
+    "dateDisplay": "15/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 92:5",
+    "textFr": "Que tes oeuvres sont grandes, ô Eternel! Que tes pensées sont profondes!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-15-soir",
+    "date": "2027-04-15T17:00:00+00:00",
+    "dateDisplay": "15/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 53:4",
+    "textFr": "Cependant, ce sont nos souffrances qu'il a portées, C'est de nos douleurs qu'il s'est chargé; Et nous l'avons considéré comme puni, Frappé de Dieu, et humilié.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-16-matin",
+    "date": "2027-04-16T05:00:00+00:00",
+    "dateDisplay": "16/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 3:4",
+    "textFr": "Tu acquerras ainsi de la grâce et une raison saine, Aux yeux de Dieu et des hommes.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-16-soir",
+    "date": "2027-04-16T17:00:00+00:00",
+    "dateDisplay": "16/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 7:4",
+    "textFr": "Ou comment peux-tu dire à ton frère: Laisse-moi ôter une paille de ton oeil, toi qui as une poutre dans le tien?",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-17-matin",
+    "date": "2027-04-17T05:00:00+00:00",
+    "dateDisplay": "17/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 2:6",
+    "textFr": "il nous a ressuscités ensemble, et nous a fait asseoir ensemble dans les lieux célestes, en Jésus-Christ,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-17-soir",
+    "date": "2027-04-17T17:00:00+00:00",
+    "dateDisplay": "17/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 116:4",
+    "textFr": "Mais j'invoquai le nom de l'Eternel: O Eternel, sauve mon âme!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-18-matin",
+    "date": "2027-04-18T05:00:00+00:00",
+    "dateDisplay": "18/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Corinthiens 15:4",
+    "textFr": "qu'il a été enseveli, et qu'il est ressuscité le troisième jour, selon les Ecritures;",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-18-soir",
+    "date": "2027-04-18T17:00:00+00:00",
+    "dateDisplay": "18/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Romains 8:4",
+    "textFr": "et cela afin que la justice de la loi fût accomplie en nous, qui marchons, non selon la chair, mais selon l'esprit.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-19-matin",
+    "date": "2027-04-19T05:00:00+00:00",
+    "dateDisplay": "19/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 5:4",
+    "textFr": "Car tandis que nous sommes dans cette tente, nous gémissons, accablés, parce que nous voulons, non pas nous dépouiller, mais nous revêtir, afin que ce qui est mortel soit englouti par la vie.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-19-soir",
+    "date": "2027-04-19T17:00:00+00:00",
+    "dateDisplay": "19/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Philippiens 1:6",
+    "textFr": "Je suis persuadé que celui qui a commencé en vous cette bonne oeuvre la rendra parfaite pour le jour de Jésus-Christ.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-20-matin",
+    "date": "2027-04-20T05:00:00+00:00",
+    "dateDisplay": "20/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 14:4",
+    "textFr": "Vous savez où je vais, et vous en savez le chemin.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-20-soir",
+    "date": "2027-04-20T17:00:00+00:00",
+    "dateDisplay": "20/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Romains 12:4",
+    "textFr": "Car, comme nous avons plusieurs membres dans un seul corps, et que tous les membres n'ont pas la même fonction,",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-21-matin",
+    "date": "2027-04-21T05:00:00+00:00",
+    "dateDisplay": "21/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 3:4",
+    "textFr": "Nicodème lui dit: Comment un homme peut-il naître quand il est vieux? Peut-il rentrer dans le sein de sa mère et naître?",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-21-soir",
+    "date": "2027-04-21T17:00:00+00:00",
+    "dateDisplay": "21/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Jean 1:4",
+    "textFr": "Et nous écrivons ces choses, afin que notre joie soit parfaite.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-22-matin",
+    "date": "2027-04-22T05:00:00+00:00",
+    "dateDisplay": "22/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Timothée 1:5",
+    "textFr": "gardant le souvenir de la foi sincère qui est en toi, qui habita d'abord dans ton aïeule Loïs et dans ta mère Eunice, et qui, j'en suis persuadé, habite aussi en toi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-22-soir",
+    "date": "2027-04-22T17:00:00+00:00",
+    "dateDisplay": "22/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 12:4",
+    "textFr": "fut enlevé dans le paradis, et qu'il entendit des paroles ineffables qu'il n'est pas permis à un homme d'exprimer.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-23-matin",
+    "date": "2027-04-23T05:00:00+00:00",
+    "dateDisplay": "23/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 4:4",
+    "textFr": "Il m'instruisait alors, et il me disait: Que ton coeur retienne mes paroles; Observe mes préceptes, et tu vivras.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-23-soir",
+    "date": "2027-04-23T17:00:00+00:00",
+    "dateDisplay": "23/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 42:5",
+    "textFr": "Pourquoi t'abats-tu, mon âme, et gémis-tu au dedans de moi? Espère en Dieu, car je le louerai encore; Il est mon salut et mon Dieu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-24-matin",
+    "date": "2027-04-24T05:00:00+00:00",
+    "dateDisplay": "24/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 40:4",
+    "textFr": "Que toute vallée soit exhaussée, Que toute montagne et toute colline soient abaissées! Que les coteaux se changent en plaines, Et les défilés étroits en vallons!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-24-soir",
+    "date": "2027-04-24T17:00:00+00:00",
+    "dateDisplay": "24/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Philippiens 4:4",
+    "textFr": "Réjouissez-vous toujours dans le Seigneur; je le répète, réjouissez-vous.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-25-matin",
+    "date": "2027-04-25T05:00:00+00:00",
+    "dateDisplay": "25/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 147:4",
+    "textFr": "Il compte le nombre des étoiles, Il leur donne à toutes des noms.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-25-soir",
+    "date": "2027-04-25T17:00:00+00:00",
+    "dateDisplay": "25/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Matthieu 5:5",
+    "textFr": "Heureux les débonnaires, car ils hériteront la terre!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-26-matin",
+    "date": "2027-04-26T05:00:00+00:00",
+    "dateDisplay": "26/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Corinthiens 4:5",
+    "textFr": "Nous ne nous prêchons pas nous-mêmes; c'est Jésus-Christ le Seigneur que nous prêchons, et nous nous disons vos serviteurs à cause de Jésus.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-26-soir",
+    "date": "2027-04-26T17:00:00+00:00",
+    "dateDisplay": "26/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 55:4",
+    "textFr": "Voici, je l'ai établi comme témoin auprès des peuples, Comme chef et dominateur des peuples.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-27-matin",
+    "date": "2027-04-27T05:00:00+00:00",
+    "dateDisplay": "27/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 43:4",
+    "textFr": "Parce que tu as du prix à mes yeux, Parce que tu es honoré et que je t'aime, Je donne des hommes à ta place, Et des peuples pour ta vie.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-27-soir",
+    "date": "2027-04-27T17:00:00+00:00",
+    "dateDisplay": "27/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Apocalypse 3:4",
+    "textFr": "Cependant tu as à Sardes quelques hommes qui n'ont pas souillé leurs vêtements; ils marcheront avec moi en vêtements blancs, parce qu'ils en sont dignes.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-28-matin",
+    "date": "2027-04-28T05:00:00+00:00",
+    "dateDisplay": "28/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 11:4",
+    "textFr": "Jésus leur répondit: Allez rapporter à Jean ce que vous entendez et ce que vous voyez:",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-28-soir",
+    "date": "2027-04-28T17:00:00+00:00",
+    "dateDisplay": "28/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 4:5",
+    "textFr": "Et ici encore: Ils n'entreront pas dans mon repos!",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-29-matin",
+    "date": "2027-04-29T05:00:00+00:00",
+    "dateDisplay": "29/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 63:5",
+    "textFr": "Mon âme sera rassasiée comme de mets gras et succulents, Et, avec des cris de joie sur les lèvres, ma bouche te célébrera.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-29-soir",
+    "date": "2027-04-29T17:00:00+00:00",
+    "dateDisplay": "29/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 31:13",
+    "textFr": "Elle se procure de la laine et du lin, Et travaille d'une main joyeuse.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-30-matin",
+    "date": "2027-04-30T05:00:00+00:00",
+    "dateDisplay": "30/ 04/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 126:6",
+    "textFr": "Celui qui marche en pleurant, quand il porte la semence, Revient avec allégresse, quand il porte ses gerbes.",
+    "textFon": null
+  },
+  {
+    "id": "2027-04-30-soir",
+    "date": "2027-04-30T17:00:00+00:00",
+    "dateDisplay": "30/ 04/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 112:4",
+    "textFr": "La lumière se lève dans les ténèbres pour les hommes droits, Pour celui qui est miséricordieux, compatissant et juste.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-01-matin",
+    "date": "2027-05-01T05:00:00+00:00",
+    "dateDisplay": "01/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Galates 6:4",
+    "textFr": "Que chacun examine ses propres oeuvres, et alors il aura sujet de se glorifier pour lui seul, et non par rapport à autrui;",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-01-soir",
+    "date": "2027-05-01T17:00:00+00:00",
+    "dateDisplay": "01/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Éphésiens 3:6",
+    "textFr": "Ce mystère, c'est que les païens sont cohéritiers, forment un même corps, et participent à la même promesse en Jésus-Christ par l'Evangile,",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-02-matin",
+    "date": "2027-05-02T05:00:00+00:00",
+    "dateDisplay": "02/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 15:4",
+    "textFr": "Demeurez en moi, et je demeurerai en vous. Comme le sarment ne peut de lui-même porter du fruit, s'il ne demeure attaché au cep, ainsi vous ne le pouvez non plus, si vous ne demeurez en moi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-02-soir",
+    "date": "2027-05-02T17:00:00+00:00",
+    "dateDisplay": "02/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 37:4",
+    "textFr": "Fais de l'Eternel tes délices, Et il te donnera ce que ton coeur désire.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-03-matin",
+    "date": "2027-05-03T05:00:00+00:00",
+    "dateDisplay": "03/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Proverbes 16:4",
+    "textFr": "L'Eternel a tout fait pour un but, Même le méchant pour le jour du malheur.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-03-soir",
+    "date": "2027-05-03T17:00:00+00:00",
+    "dateDisplay": "03/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Colossiens 3:4",
+    "textFr": "Quand Christ, votre vie, paraîtra, alors vous paraîtrez aussi avec lui dans la gloire.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-04-matin",
+    "date": "2027-05-04T05:00:00+00:00",
+    "dateDisplay": "04/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 16:5",
+    "textFr": "L'Eternel est mon partage et mon calice; C'est toi qui m'assures mon lot;",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-04-soir",
+    "date": "2027-05-04T17:00:00+00:00",
+    "dateDisplay": "04/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 100:5",
+    "textFr": "Car l'Eternel est bon; sa bonté dure toujours, Et sa fidélité de génération en génération.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-05-matin",
+    "date": "2027-05-05T05:00:00+00:00",
+    "dateDisplay": "05/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Ésaïe 41:4",
+    "textFr": "Qui a fait et exécuté ces choses? C'est celui qui a appelé les générations dès le commencement, Moi, l'Eternel, le premier Et le même jusqu'aux derniers âges.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-05-soir",
+    "date": "2027-05-05T17:00:00+00:00",
+    "dateDisplay": "05/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jean 10:4",
+    "textFr": "Lorsqu'il a fait sortir toutes ses propres brebis, il marche devant elles; et les brebis le suivent, parce qu'elles connaissent sa voix.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-06-matin",
+    "date": "2027-05-06T05:00:00+00:00",
+    "dateDisplay": "06/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 11:4",
+    "textFr": "C'est par la foi qu'Abel offrit à Dieu un sacrifice plus excellent que celui de Caïn; c'est par elle qu'il fut déclaré juste, Dieu approuvant ses offrandes; et c'est par elle qu'il parle encore, quoique mort.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-06-soir",
+    "date": "2027-05-06T17:00:00+00:00",
+    "dateDisplay": "06/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 27:4",
+    "textFr": "Je demande à l'Eternel une chose, que je désire ardemment: Je voudrais habiter toute ma vie dans la maison de l'Eternel, Pour contempler la magnificence de l'Eternel Et pour admirer son temple.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-07-matin",
+    "date": "2027-05-07T05:00:00+00:00",
+    "dateDisplay": "07/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 34:4",
+    "textFr": "J'ai cherché l'Eternel, et il m'a répondu; Il m'a délivré de toutes mes frayeurs.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-07-soir",
+    "date": "2027-05-07T17:00:00+00:00",
+    "dateDisplay": "07/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "2 Corinthiens 1:5",
+    "textFr": "Car, de même que les souffrances de Christ abondent en nous, de même notre consolation abonde par Christ.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-08-matin",
+    "date": "2027-05-08T05:00:00+00:00",
+    "dateDisplay": "08/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 1:5",
+    "textFr": "La lumière luit dans les ténèbres, et les ténèbres ne l'ont point reçue.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-08-soir",
+    "date": "2027-05-08T17:00:00+00:00",
+    "dateDisplay": "08/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jacques 4:5",
+    "textFr": "Croyez-vous que l'Ecriture parle en vain? C'est avec jalousie que Dieu chérit l'esprit qu'il a fait habiter en nous.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-09-matin",
+    "date": "2027-05-09T05:00:00+00:00",
+    "dateDisplay": "09/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 46:5",
+    "textFr": "Dieu est au milieu d'elle: elle n'est point ébranlée; Dieu la secourt dès l'aube du matin.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-09-soir",
+    "date": "2027-05-09T17:00:00+00:00",
+    "dateDisplay": "09/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Pierre 1:6",
+    "textFr": "C'est là ce qui fait votre joie, quoique maintenant, puisqu'il le faut, vous soyez attristés pour un peu de temps par diverses épreuves,",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-10-matin",
+    "date": "2027-05-10T05:00:00+00:00",
+    "dateDisplay": "10/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 121:5",
+    "textFr": "L'Eternel est celui qui te garde, L'Eternel est ton ombre à ta main droite.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-10-soir",
+    "date": "2027-05-10T17:00:00+00:00",
+    "dateDisplay": "10/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Hébreux 12:4",
+    "textFr": "Vous n'avez pas encore résisté jusqu'au sang, en luttant contre le péché.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-11-matin",
+    "date": "2027-05-11T05:00:00+00:00",
+    "dateDisplay": "11/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Matthieu 6:5",
+    "textFr": "Lorsque vous priez, ne soyez pas comme les hypocrites, qui aiment à prier debout dans les synagogues et aux coins des rues, pour être vus des hommes. Je vous le dis en vérité, ils reçoivent leur récompense.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-11-soir",
+    "date": "2027-05-11T17:00:00+00:00",
+    "dateDisplay": "11/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 118:4",
+    "textFr": "Que ceux qui craignent l'Eternel disent: Car sa miséricorde dure à toujours!",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-12-matin",
+    "date": "2027-05-12T05:00:00+00:00",
+    "dateDisplay": "12/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 1:4",
+    "textFr": "Il n'en est pas ainsi des méchants: Ils sont comme la paille que le vent dissipe.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-12-soir",
+    "date": "2027-05-12T17:00:00+00:00",
+    "dateDisplay": "12/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Jean 4:4",
+    "textFr": "Vous, petits enfants, vous êtes de Dieu, et vous les avez vaincus, parce que celui qui est en vous est plus grand que celui qui est dans le monde.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-13-matin",
+    "date": "2027-05-13T05:00:00+00:00",
+    "dateDisplay": "13/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Romains 15:4",
+    "textFr": "Or, tout ce qui a été écrit d'avance l'a été pour notre instruction, afin que, par la patience, et par la consolation que donnent les Ecritures, nous possédions l'espérance.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-13-soir",
+    "date": "2027-05-13T17:00:00+00:00",
+    "dateDisplay": "13/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Pierre 5:4",
+    "textFr": "Et lorsque le souverain pasteur paraîtra, vous obtiendrez la couronne incorruptible de la gloire.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-14-matin",
+    "date": "2027-05-14T05:00:00+00:00",
+    "dateDisplay": "14/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Jean 16:4",
+    "textFr": "Je vous ai dit ces choses, afin que, lorsque l'heure sera venue, vous vous souveniez que je vous les ai dites. Je ne vous en ai pas parlé dès le commencement, parce que j'étais avec vous.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-14-soir",
+    "date": "2027-05-14T17:00:00+00:00",
+    "dateDisplay": "14/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Jacques 1:5",
+    "textFr": "Si quelqu'un d'entre vous manque de sagesse, qu'il la demande à Dieu, qui donne à tous simplement et sans reproche, et elle lui sera donnée.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-15-matin",
+    "date": "2027-05-15T05:00:00+00:00",
+    "dateDisplay": "15/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 130:5",
+    "textFr": "J'espère en l'Eternel, mon âme espère, Et j'attends sa promesse.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-15-soir",
+    "date": "2027-05-15T17:00:00+00:00",
+    "dateDisplay": "15/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Philippiens 2:4",
+    "textFr": "Que chacun de vous, au lieu de considérer ses propres intérêts, considère aussi ceux des autres.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-16-matin",
+    "date": "2027-05-16T05:00:00+00:00",
+    "dateDisplay": "16/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "2 Timothée 4:4",
+    "textFr": "détourneront l'oreille de la vérité, et se tourneront vers les fables.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-16-soir",
+    "date": "2027-05-16T17:00:00+00:00",
+    "dateDisplay": "16/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Galates 5:4",
+    "textFr": "Vous êtes séparés de Christ, vous tous qui cherchez la justification dans la loi; vous êtes déchus de la grâce.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-17-matin",
+    "date": "2027-05-17T05:00:00+00:00",
+    "dateDisplay": "17/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 146:6",
+    "textFr": "Il a fait les cieux et la terre, La mer et tout ce qui s'y trouve. Il garde la fidélité à toujours.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-17-soir",
+    "date": "2027-05-17T17:00:00+00:00",
+    "dateDisplay": "17/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 139:5",
+    "textFr": "Tu m'entoures par derrière et par devant, Et tu mets ta main sur moi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-18-matin",
+    "date": "2027-05-18T05:00:00+00:00",
+    "dateDisplay": "18/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Apocalypse 21:4",
+    "textFr": "Il essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n'y aura plus ni deuil, ni cri, ni douleur, car les premières choses ont disparu.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-18-soir",
+    "date": "2027-05-18T17:00:00+00:00",
+    "dateDisplay": "18/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Jean 5:4",
+    "textFr": "parce que tout ce qui est né de Dieu triomphe du monde; et la victoire qui triomphe du monde, c'est notre foi.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-19-matin",
+    "date": "2027-05-19T05:00:00+00:00",
+    "dateDisplay": "19/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 23:5",
+    "textFr": "Tu dresses devant moi une table, En face de mes adversaires; Tu oins d'huile ma tête, Et ma coupe déborde.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-19-soir",
+    "date": "2027-05-19T17:00:00+00:00",
+    "dateDisplay": "19/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Romains 5:4",
+    "textFr": "la persévérance la victoire dans l'épreuve, et cette victoire l'espérance.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-20-matin",
+    "date": "2027-05-20T05:00:00+00:00",
+    "dateDisplay": "20/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "1 Thessaloniciens 5:4",
+    "textFr": "Mais vous, frères, vous n'êtes pas dans les ténèbres, pour que ce jour vous surprenne comme un voleur;",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-20-soir",
+    "date": "2027-05-20T17:00:00+00:00",
+    "dateDisplay": "20/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 62:5",
+    "textFr": "Oui, mon âme, confie-toi en Dieu! Car de lui vient mon espérance.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-21-matin",
+    "date": "2027-05-21T05:00:00+00:00",
+    "dateDisplay": "21/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Éphésiens 6:4",
+    "textFr": "Et vous, pères, n'irritez pas vos enfants, mais élevez-les en les corrigeant et en les instruisant selon le Seigneur.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-21-soir",
+    "date": "2027-05-21T17:00:00+00:00",
+    "dateDisplay": "21/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 84:5",
+    "textFr": "Heureux ceux qui placent en toi leur appui! Ils trouvent dans leur coeur des chemins tout tracés.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-22-matin",
+    "date": "2027-05-22T05:00:00+00:00",
+    "dateDisplay": "22/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 103:4",
+    "textFr": "C'est lui qui délivre ta vie de la fosse, Qui te couronne de bonté et de miséricorde;",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-22-soir",
+    "date": "2027-05-22T17:00:00+00:00",
+    "dateDisplay": "22/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 145:4",
+    "textFr": "Que chaque génération célèbre tes oeuvres, Et publie tes hauts faits!",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-23-matin",
+    "date": "2027-05-23T05:00:00+00:00",
+    "dateDisplay": "23/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 150:4",
+    "textFr": "Louez-le avec le tambourin et avec des danses! Louez-le avec les instruments à cordes et le chalumeau!",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-23-soir",
+    "date": "2027-05-23T17:00:00+00:00",
+    "dateDisplay": "23/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Proverbes 18:4",
+    "textFr": "Les paroles de la bouche d'un homme sont des eaux profondes; La source de la sagesse est un torrent qui jaillit.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-24-matin",
+    "date": "2027-05-24T05:00:00+00:00",
+    "dateDisplay": "24/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 19:5",
+    "textFr": "Et le soleil, semblable à un époux qui sort de sa chambre, S'élance dans la carrière avec la joie d'un héros;",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-24-soir",
+    "date": "2027-05-24T17:00:00+00:00",
+    "dateDisplay": "24/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Psaume 91:4",
+    "textFr": "Il te couvrira de ses plumes, Et tu trouveras un refuge sous ses ailes; Sa fidélité est un bouclier et une cuirasse.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-25-matin",
+    "date": "2027-05-25T05:00:00+00:00",
+    "dateDisplay": "25/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Hébreux 13:6",
+    "textFr": "C'est donc avec assurance que nous pouvons dire: Le Seigneur est mon aide, je ne craindrai rien; Que peut me faire un homme?",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-25-soir",
+    "date": "2027-05-25T17:00:00+00:00",
+    "dateDisplay": "25/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "1 Corinthiens 13:5",
+    "textFr": "elle ne fait rien de malhonnête, elle ne cherche point son intérêt, elle ne s'irrite point, elle ne soupçonne point le mal,",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-26-matin",
+    "date": "2027-05-26T05:00:00+00:00",
+    "dateDisplay": "26/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 51:6",
+    "textFr": "Mais tu veux que la vérité soit au fond du coeur: Fais donc pénétrer la sagesse au dedans de moi!",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-26-soir",
+    "date": "2027-05-26T17:00:00+00:00",
+    "dateDisplay": "26/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Ésaïe 61:8",
+    "textFr": "Car moi, l'Eternel, j'aime la justice, Je hais la rapine avec l'iniquité; Je leur donnerai fidèlement leur récompense, Et je traiterai avec eux une alliance éternelle.",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-27-matin",
+    "date": "2027-05-27T05:00:00+00:00",
+    "dateDisplay": "27/ 05/ 27",
+    "timeOfDay": "matin",
+    "reference": "Psaume 8:7",
+    "textFr": "Les brebis comme les boeufs, Et les animaux des champs,",
+    "textFon": null
+  },
+  {
+    "id": "2027-05-27-soir",
+    "date": "2027-05-27T17:00:00+00:00",
+    "dateDisplay": "27/ 05/ 27",
+    "timeOfDay": "soir",
+    "reference": "Colossiens 1:6",
+    "textFr": "Il est au milieu de vous, et dans le monde entier; il porte des fruits, et il va grandissant, comme c'est aussi le cas parmi vous, depuis le jour où vous avez entendu et connu la grâce de Dieu conformément à la vérité,",
+    "textFon": null
+  }
+]
