@@ -13,8 +13,16 @@ class NewsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: AppSpacing.md, vertical: AppSpacing.sm),
       clipBehavior: Clip.antiAlias,
+      decoration: BoxDecoration(
+        color: Theme.of(context).cardTheme.color,
+        borderRadius: BorderRadius.circular(AppRadius.lg),
+        boxShadow: [
+          BoxShadow(color: Colors.black.withValues(alpha: 0.05), blurRadius: 16, offset: const Offset(0, 6)),
+        ],
+      ),
       child: InkWell(
         onTap: onTap,
         child: Column(
@@ -26,52 +34,58 @@ class NewsCard extends StatelessWidget {
                 child: CachedNetworkImage(
                   imageUrl: article.imageUrl!,
                   fit: BoxFit.cover,
-                  placeholder: (_, _) => Container(color: AppColors.background),
+                  placeholder: (_, _) => Container(color: AppColors.placeholder),
                   errorWidget: (_, _, _) => Container(
-                    color: AppColors.background,
+                    color: AppColors.placeholder,
                     child: const Icon(Icons.image_not_supported_outlined),
                   ),
                 ),
               ),
             Padding(
-              padding: const EdgeInsets.all(14),
+              padding: const EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                     decoration: BoxDecoration(
-                      color: AppColors.gold.withValues(alpha: 0.15),
-                      borderRadius: BorderRadius.circular(20),
+                      gradient: AppColors.gradientGold,
+                      borderRadius: BorderRadius.circular(AppRadius.pill),
                     ),
                     child: Text(
                       article.category.toUpperCase(),
                       style: const TextStyle(
-                        color: AppColors.primary,
+                        color: AppColors.primaryDark,
                         fontSize: 10,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 0.6,
                       ),
                     ),
                   ),
-                  const SizedBox(height: 8),
+                  const SizedBox(height: 10),
                   Text(
                     article.title,
-                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                    style: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w800),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 6),
                   Text(
                     article.content,
-                    style: TextStyle(color: Colors.grey[700], fontSize: 13.5),
+                    style: TextStyle(color: Colors.grey[600], fontSize: 13.5, height: 1.4),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    DateFormat("d MMMM yyyy 'à' HH:mm", 'fr_FR').format(article.publishedAt),
-                    style: TextStyle(color: Colors.grey[500], fontSize: 11.5),
+                  const SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Icon(Icons.schedule_rounded, size: 13, color: Colors.grey[400]),
+                      const SizedBox(width: 4),
+                      Text(
+                        DateFormat("d MMMM yyyy 'à' HH:mm", 'fr_FR').format(article.publishedAt),
+                        style: TextStyle(color: Colors.grey[400], fontSize: 11.5),
+                      ),
+                    ],
                   ),
                 ],
               ),

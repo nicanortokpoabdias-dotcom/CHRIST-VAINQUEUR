@@ -1,0 +1,737 @@
+<title>Console Christ Vainqueur</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Layout concept: sidebar tool shell — fixed left nav of content sections on
+     desktop, collapsing to a horizontal scroll tab strip on phone; each
+     section pairs a publish form with the live list it manages. */
+  :root{
+    --bg:#F6F7FC; --surface:#FFFFFF; --surface-2:#F0F1F8;
+    --fg:#171B2E; --fg-muted:#6B7280; --border:rgba(22,33,92,.1);
+    --primary:#16215C; --primary-2:#2A3B8F; --accent:#B9892C; --accent-soft:#F3E7C4;
+    --danger:#D23B3B; --danger-soft:#FBE4E4;
+    --shadow: 0 10px 30px rgba(22,33,92,.08);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B0E1A; --surface:#161A2C; --surface-2:#1E2238;
+      --fg:#F1F2F8; --fg-muted:#9AA0B4; --border:rgba(255,255,255,.08);
+      --primary:#5B6CE0; --primary-2:#7C8CF0; --accent:#E8C766; --accent-soft:#3A3115;
+      --danger:#F26A6A; --danger-soft:#3A1E20;
+      --shadow: 0 10px 30px rgba(0,0,0,.4);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B0E1A; --surface:#161A2C; --surface-2:#1E2238;
+    --fg:#F1F2F8; --fg-muted:#9AA0B4; --border:rgba(255,255,255,.08);
+    --primary:#5B6CE0; --primary-2:#7C8CF0; --accent:#E8C766; --accent-soft:#3A3115;
+    --danger:#F26A6A; --danger-soft:#3A1E20;
+    --shadow: 0 10px 30px rgba(0,0,0,.4);
+    color-scheme: dark;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--fg);
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    padding-left:max(16px, env(safe-area-inset-left,0px));
+    padding-right:max(16px, env(safe-area-inset-right,0px));
+  }
+  h1,h2,h3{ font-family:'Playfair Display', Georgia, serif; text-wrap:balance; margin:0; }
+  a{ color:var(--primary-2); }
+  button{ font-family:inherit; }
+  input,textarea{ font-family:inherit; color:var(--fg); }
+  ::placeholder{ color:var(--fg-muted); opacity:.8; }
+
+  /* ---------- Login ---------- */
+  #login-screen{
+    min-height:70vh; display:flex; align-items:center; justify-content:center;
+    padding-block:48px;
+  }
+  .login-card{
+    width:100%; max-width:380px; background:var(--surface); border:1px solid var(--border);
+    border-radius:20px; padding:32px 28px; box-shadow:var(--shadow);
+  }
+  .login-card .brand{ display:flex; align-items:center; gap:10px; margin-bottom:22px; }
+  .brand-mark{
+    width:40px; height:40px; border-radius:11px;
+    background:linear-gradient(135deg,var(--primary),var(--primary-2));
+    display:flex; align-items:center; justify-content:center; color:var(--accent);
+    font-family:'Playfair Display',serif; font-weight:700; font-size:18px; flex:none;
+  }
+  .login-card h1{ font-size:21px; }
+  .login-card p.sub{ color:var(--fg-muted); font-size:13px; margin:4px 0 0; }
+  .field{ margin-top:16px; }
+  .field label{ display:block; font-size:12.5px; font-weight:600; color:var(--fg-muted); margin-bottom:6px; }
+  .field input, .field textarea{
+    width:100%; padding:11px 13px; border-radius:11px; border:1px solid var(--border);
+    background:var(--surface-2); font-size:14px; outline:none;
+  }
+  .field input:focus, .field textarea:focus{ border-color:var(--primary-2); }
+  .btn{
+    appearance:none; border:none; cursor:pointer; border-radius:11px; font-weight:700;
+    font-size:14px; padding:12px 18px; display:inline-flex; align-items:center; gap:8px;
+    justify-content:center; transition:transform .15s ease, opacity .15s ease;
+  }
+  .btn:active{ transform:scale(.97); }
+  .btn-primary{ background:linear-gradient(135deg,var(--primary),var(--primary-2)); color:#fff; width:100%; margin-top:20px; }
+  .btn-primary:disabled{ opacity:.6; cursor:default; }
+  .btn-ghost{ background:transparent; color:var(--fg-muted); border:1px solid var(--border); }
+  .btn-danger{ background:var(--danger-soft); color:var(--danger); }
+  .login-error{
+    margin-top:14px; font-size:12.5px; color:var(--danger); background:var(--danger-soft);
+    border-radius:10px; padding:9px 12px; display:none;
+  }
+
+  /* ---------- Shell ---------- */
+  #app-shell{ display:none; }
+  .shell-grid{
+    display:grid; grid-template-columns:1fr; min-height:100vh;
+    padding-block:16px;
+  }
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    padding:10px 4px 16px;
+  }
+  .topbar .who{ display:flex; align-items:center; gap:10px; min-width:0; }
+  .topbar .who span{ font-size:12.5px; color:var(--fg-muted); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  nav.tabs{
+    display:flex; gap:6px; overflow-x:auto; padding-bottom:6px; margin-bottom:16px;
+    -ms-overflow-style:none; scrollbar-width:none;
+  }
+  nav.tabs::-webkit-scrollbar{ display:none; }
+  nav.tabs button{
+    appearance:none; border:1px solid var(--border); background:var(--surface); color:var(--fg-muted);
+    padding:10px 16px; border-radius:999px; font-size:13px; font-weight:600; white-space:nowrap;
+    cursor:pointer; flex:none;
+  }
+  nav.tabs button.active{ background:var(--primary); color:#fff; border-color:var(--primary); }
+
+  section.panel{ display:none; }
+  section.panel.active{ display:block; }
+
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:18px;
+    padding:20px; box-shadow:var(--shadow); margin-bottom:18px;
+  }
+  .card h2{ font-size:17px; margin-bottom:4px; }
+  .card .hint{ color:var(--fg-muted); font-size:12.5px; margin-bottom:16px; }
+  .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .checkbox-row{ display:flex; align-items:center; gap:8px; margin-top:16px; }
+  .checkbox-row input{ width:17px; height:17px; }
+  .checkbox-row label{ font-size:13px; color:var(--fg); }
+
+  .upload-row{ display:flex; align-items:center; gap:10px; margin-top:6px; }
+  .upload-row input[type=file]{ font-size:12.5px; color:var(--fg-muted); max-width:100%; }
+  .progress{
+    height:6px; border-radius:4px; background:var(--surface-2); margin-top:8px; overflow:hidden; display:none;
+  }
+  .progress > div{ height:100%; width:0%; background:var(--accent); transition:width .2s ease; }
+
+  .form-actions{ display:flex; gap:10px; margin-top:18px; flex-wrap:wrap; }
+  .status-msg{ font-size:12.5px; margin-top:10px; display:none; padding:9px 12px; border-radius:10px; }
+  .status-msg.ok{ background:var(--accent-soft); color:var(--accent); display:block; }
+  .status-msg.err{ background:var(--danger-soft); color:var(--danger); display:block; }
+
+  .list-item{
+    display:flex; gap:12px; padding:14px 0; border-top:1px solid var(--border);
+    align-items:flex-start;
+  }
+  .list-item:first-child{ border-top:none; }
+  .list-item .thumb{
+    width:56px; height:56px; border-radius:10px; background:var(--surface-2) center/cover no-repeat;
+    flex:none; display:flex; align-items:center; justify-content:center; color:var(--fg-muted); font-size:11px;
+  }
+  .list-item .meta{ min-width:0; flex:1; }
+  .list-item .meta h3{ font-size:14px; font-family:'Inter'; font-weight:700; margin-bottom:2px; }
+  .list-item .meta p{ margin:0; font-size:12.5px; color:var(--fg-muted); line-height:1.4; }
+  .list-item .meta .date{ font-size:11px; color:var(--fg-muted); margin-top:4px; }
+  .list-item .actions{ display:flex; gap:6px; flex:none; }
+  .icon-btn{
+    appearance:none; border:1px solid var(--border); background:var(--surface-2); color:var(--fg-muted);
+    width:32px; height:32px; border-radius:9px; cursor:pointer; font-size:13px; display:flex;
+    align-items:center; justify-content:center;
+  }
+  .icon-btn.danger{ color:var(--danger); }
+  .icon-btn.confirming{ background:var(--danger); color:#fff; border-color:var(--danger); width:auto; padding:0 10px; font-size:11.5px; font-weight:700; }
+  .empty{ color:var(--fg-muted); font-size:13px; text-align:center; padding:24px 0; }
+
+  @media (min-width:860px){
+    .shell-grid{ grid-template-columns:220px 1fr; gap:28px; padding-block:28px; }
+    nav.tabs{ flex-direction:column; overflow:visible; }
+    nav.tabs button{ text-align:left; }
+    .topbar{ grid-column:1/-1; }
+    .grid-2{ grid-template-columns:1fr 1fr; }
+  }
+</style>
+
+<div id="login-screen">
+  <form class="login-card" id="login-form">
+    <div class="brand"><div class="brand-mark">CV</div>
+      <div><h1>Console Christ Vainqueur</h1><p class="sub">Publier actualités, programme, audio &amp; vidéos</p></div>
+    </div>
+    <div class="field"><label for="login-email">Adresse e-mail</label>
+      <input id="login-email" type="email" autocomplete="username" required placeholder="vous@exemple.com"></div>
+    <div class="field"><label for="login-password">Mot de passe</label>
+      <input id="login-password" type="password" autocomplete="current-password" required placeholder="••••••••"></div>
+    <button class="btn btn-primary" type="submit" id="login-btn">Se connecter</button>
+    <div class="login-error" id="login-error"></div>
+  </form>
+</div>
+
+<div id="app-shell">
+  <div class="shell-grid">
+    <div class="topbar">
+      <div class="who">
+        <div class="brand-mark" style="width:34px;height:34px;font-size:14px;">CV</div>
+        <div><div style="font-weight:700;font-size:14px;">Console Christ Vainqueur</div><span id="who-email"></span></div>
+      </div>
+      <button class="btn btn-ghost" id="logout-btn">Déconnexion</button>
+    </div>
+
+    <nav class="tabs" id="tabs">
+      <button data-tab="news" class="active">Actualités</button>
+      <button data-tab="events">Programme</button>
+      <button data-tab="audio">Prières (audio)</button>
+      <button data-tab="videos">Vidéos</button>
+      <button data-tab="verse">Verset du jour</button>
+    </nav>
+
+    <main>
+      <!-- NEWS -->
+      <section class="panel active" data-panel="news">
+        <div class="card">
+          <h2 id="news-form-title">Publier une actualité</h2>
+          <p class="hint">Visible immédiatement dans l'onglet Actualités de l'app.</p>
+          <form id="news-form">
+            <div class="field"><label>Titre</label><input id="news-title" required maxlength="140"></div>
+            <div class="field"><label>Contenu</label><textarea id="news-content" rows="4" required></textarea></div>
+            <div class="grid-2">
+              <div class="field"><label>Catégorie</label><input id="news-category" placeholder="Annonce" value="Annonce"></div>
+              <div class="field"><label>Date de publication</label><input id="news-date" type="datetime-local" required></div>
+            </div>
+            <div class="field"><label>Image (optionnelle)</label>
+              <div class="upload-row"><input type="file" id="news-image-file" accept="image/*"></div>
+              <div class="progress" id="news-image-progress"><div></div></div>
+              <input type="hidden" id="news-image-url">
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="news-submit">Publier</button>
+              <button class="btn btn-ghost" type="button" id="news-cancel" style="display:none;">Annuler la modification</button>
+            </div>
+            <div class="status-msg" id="news-status"></div>
+          </form>
+        </div>
+        <div class="card"><h2>Actualités publiées</h2><div id="news-list"></div></div>
+      </section>
+
+      <!-- EVENTS -->
+      <section class="panel" data-panel="events">
+        <div class="card">
+          <h2 id="events-form-title">Publier un événement</h2>
+          <p class="hint">Affiché dans le Programme, trié par date.</p>
+          <form id="events-form">
+            <div class="field"><label>Titre</label><input id="events-title" required maxlength="140"></div>
+            <div class="field"><label>Description</label><textarea id="events-description" rows="3" required></textarea></div>
+            <div class="grid-2">
+              <div class="field"><label>Lieu</label><input id="events-location" value="Centre de Prière Christ Vainqueur" required></div>
+              <div class="field"><label>Date &amp; heure</label><input id="events-date" type="datetime-local" required></div>
+            </div>
+            <div class="checkbox-row"><input type="checkbox" id="events-recurring"><label for="events-recurring">Événement hebdomadaire récurrent</label></div>
+            <div class="field"><label>Affiche (optionnelle)</label>
+              <div class="upload-row"><input type="file" id="events-poster-file" accept="image/*"></div>
+              <div class="progress" id="events-poster-progress"><div></div></div>
+              <input type="hidden" id="events-poster-url">
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="events-submit">Publier</button>
+              <button class="btn btn-ghost" type="button" id="events-cancel" style="display:none;">Annuler la modification</button>
+            </div>
+            <div class="status-msg" id="events-status"></div>
+          </form>
+        </div>
+        <div class="card"><h2>Événements publiés</h2><div id="events-list"></div></div>
+      </section>
+
+      <!-- AUDIO -->
+      <section class="panel" data-panel="audio">
+        <div class="card">
+          <h2 id="audio-form-title">Publier une séance de prière</h2>
+          <p class="hint">Le fichier mp3 sera écoutable et téléchargeable dans l'app.</p>
+          <form id="audio-form">
+            <div class="field"><label>Titre</label><input id="audio-title" required maxlength="140" placeholder="Prière du matin"></div>
+            <div class="field"><label>Description (optionnelle)</label><textarea id="audio-description" rows="2"></textarea></div>
+            <div class="field"><label>Date de l'enregistrement</label><input id="audio-date" type="datetime-local" required></div>
+            <div class="field"><label>Fichier mp3</label>
+              <div class="upload-row"><input type="file" id="audio-file" accept="audio/*"></div>
+              <div class="progress" id="audio-progress"><div></div></div>
+              <input type="hidden" id="audio-url">
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="audio-submit">Publier</button>
+              <button class="btn btn-ghost" type="button" id="audio-cancel" style="display:none;">Annuler la modification</button>
+            </div>
+            <div class="status-msg" id="audio-status"></div>
+          </form>
+        </div>
+        <div class="card"><h2>Audios publiés</h2><div id="audio-list"></div></div>
+      </section>
+
+      <!-- VIDEOS -->
+      <section class="panel" data-panel="videos">
+        <div class="card">
+          <h2 id="videos-form-title">Publier une vidéo</h2>
+          <p class="hint">Collez un lien YouTube (vidéo, short ou lien court youtu.be).</p>
+          <form id="videos-form">
+            <div class="field"><label>Titre</label><input id="videos-title" required maxlength="140"></div>
+            <div class="field"><label>Lien YouTube</label><input id="videos-url" type="url" required placeholder="https://www.youtube.com/watch?v=..."></div>
+            <div class="field"><label>Date de publication</label><input id="videos-date" type="datetime-local" required></div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="videos-submit">Publier</button>
+              <button class="btn btn-ghost" type="button" id="videos-cancel" style="display:none;">Annuler la modification</button>
+            </div>
+            <div class="status-msg" id="videos-status"></div>
+          </form>
+        </div>
+        <div class="card"><h2>Vidéos publiées</h2><div id="videos-list"></div></div>
+      </section>
+
+      <!-- VERSE -->
+      <section class="panel" data-panel="verse">
+        <div class="card">
+          <h2 id="verse-form-title">Publier le verset du jour</h2>
+          <p class="hint">Le plus récent est affiché en tête de l'accueil.</p>
+          <form id="verse-form">
+            <div class="field"><label>Référence</label><input id="verse-reference" required placeholder="Philippiens 4:13"></div>
+            <div class="field"><label>Texte du verset</label><textarea id="verse-text" rows="3" required></textarea></div>
+            <div class="field"><label>Méditation (optionnelle)</label><textarea id="verse-meditation" rows="2"></textarea></div>
+            <div class="field"><label>Date</label><input id="verse-date" type="datetime-local" required></div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="verse-submit">Publier</button>
+              <button class="btn btn-ghost" type="button" id="verse-cancel" style="display:none;">Annuler la modification</button>
+            </div>
+            <div class="status-msg" id="verse-status"></div>
+          </form>
+        </div>
+        <div class="card"><h2>Versets publiés</h2><div id="verse-list"></div></div>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/firebase@10.12.2/firebase-app-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/firebase@10.12.2/firebase-auth-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/firebase@10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/firebase@10.12.2/firebase-storage-compat.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  // -----------------------------------------------------------------------
+  // ⚠️ Configuration Firebase du projet "christ-vainqueur".
+  // apiKey/projectId/storageBucket repris de google-services.json ; appId et
+  // messagingSenderId provisoires le temps qu'une app Web soit enregistrée
+  // dans la console Firebase (Paramètres du projet → Ajouter une application
+  // → icône "</>"). Remplacer FIREBASE_WEB_CONFIG par l'objet affiché à ce
+  // moment-là pour finaliser la connexion.
+  // -----------------------------------------------------------------------
+  var FIREBASE_WEB_CONFIG = {
+    apiKey: "AIzaSyD-FsNSaTr4-FuqcyjuA0GGBPZ3KzP8b5k",
+    authDomain: "christ-vainqueur.firebaseapp.com",
+    projectId: "christ-vainqueur",
+    storageBucket: "christ-vainqueur.firebasestorage.app",
+    messagingSenderId: "182538716965",
+    appId: "1:182538716965:web:0000000000000000000000"
+  };
+
+  firebase.initializeApp(FIREBASE_WEB_CONFIG);
+  var auth = firebase.auth();
+  var db = firebase.firestore();
+  var storage = firebase.storage();
+
+  // ---------------------------------------------------------------- utils
+  function $(id){ return document.getElementById(id); }
+  function toLocalInputValue(date){
+    var pad = function(n){ return String(n).padStart(2,'0'); };
+    return date.getFullYear() + '-' + pad(date.getMonth()+1) + '-' + pad(date.getDate()) +
+      'T' + pad(date.getHours()) + ':' + pad(date.getMinutes());
+  }
+  function inputValueToTimestamp(value){
+    return firebase.firestore.Timestamp.fromDate(new Date(value));
+  }
+  function tsToLocalInputValue(ts){
+    return ts && ts.toDate ? toLocalInputValue(ts.toDate()) : toLocalInputValue(new Date());
+  }
+  function formatFr(ts){
+    if(!ts || !ts.toDate) return '';
+    try{
+      return new Intl.DateTimeFormat('fr-FR', {dateStyle:'long', timeStyle:'short'}).format(ts.toDate());
+    }catch(e){ return ''; }
+  }
+  function showStatus(id, kind, message){
+    var el = $(id);
+    el.textContent = message;
+    el.className = 'status-msg ' + kind;
+    setTimeout(function(){ el.className = 'status-msg'; }, 4000);
+  }
+  function escapeHtml(str){
+    return String(str || '').replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  function uploadFile(file, folder, progressId){
+    return new Promise(function(resolve, reject){
+      var path = folder + '/' + Date.now() + '_' + file.name.replace(/[^a-zA-Z0-9._-]/g,'_');
+      var ref = storage.ref().child(path);
+      var task = ref.put(file);
+      var progressWrap = $(progressId);
+      var progressBar = progressWrap.querySelector('div');
+      progressWrap.style.display = 'block';
+      task.on('state_changed', function(snap){
+        var pct = (snap.bytesTransferred / snap.totalBytes) * 100;
+        progressBar.style.width = pct + '%';
+      }, function(err){
+        progressWrap.style.display = 'none';
+        reject(err);
+      }, function(){
+        task.snapshot.ref.getDownloadURL().then(function(url){
+          progressWrap.style.display = 'none';
+          resolve(url);
+        }).catch(reject);
+      });
+    });
+  }
+
+  // ----------------------------------------------------------- tab switch
+  document.querySelectorAll('nav.tabs button').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('nav.tabs button').forEach(function(b){ b.classList.remove('active'); });
+      document.querySelectorAll('section.panel').forEach(function(p){ p.classList.remove('active'); });
+      btn.classList.add('active');
+      document.querySelector('section.panel[data-panel="'+btn.dataset.tab+'"]').classList.add('active');
+      try{ localStorage.setItem('cv_admin_tab', btn.dataset.tab); }catch(e){}
+    });
+  });
+  try{
+    var savedTab = localStorage.getItem('cv_admin_tab');
+    if(savedTab){ var b = document.querySelector('nav.tabs button[data-tab="'+savedTab+'"]'); if(b) b.click(); }
+  }catch(e){}
+
+  // -------------------------------------------------------------- confirm
+  function wireDangerConfirm(btn, onConfirm){
+    var timer = null;
+    btn.addEventListener('click', function(){
+      if(btn.classList.contains('confirming')){
+        clearTimeout(timer);
+        btn.classList.remove('confirming');
+        btn.textContent = '';
+        onConfirm();
+        return;
+      }
+      btn.classList.add('confirming');
+      var original = btn.innerHTML;
+      btn.textContent = 'Confirmer ?';
+      timer = setTimeout(function(){
+        btn.classList.remove('confirming');
+        btn.innerHTML = original;
+      }, 4000);
+    });
+  }
+
+  // ===================================================== section factory
+  function setupSection(opts){
+    // opts: { id, collection, orderField, formFields:[{id,key,type}], buildListItem, resetExtra }
+    var form = $(opts.id + '-form');
+    var submitBtn = $(opts.id + '-submit');
+    var cancelBtn = $(opts.id + '-cancel');
+    var formTitle = $(opts.id + '-form-title');
+    var listEl = $(opts.id + '-list');
+    var editingId = null;
+
+    function resetForm(){
+      editingId = null;
+      form.reset();
+      formTitle.textContent = opts.createTitle;
+      submitBtn.textContent = 'Publier';
+      cancelBtn.style.display = 'none';
+      if(opts.onReset) opts.onReset();
+      if(opts.dateField) $(opts.dateField).value = toLocalInputValue(new Date());
+    }
+    cancelBtn.addEventListener('click', resetForm);
+    if(opts.dateField) $(opts.dateField).value = toLocalInputValue(new Date());
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      submitBtn.disabled = true;
+      Promise.resolve().then(function(){ return opts.collectData(); }).then(function(data){
+        var ref = db.collection(opts.collection);
+        if(editingId){
+          return ref.doc(editingId).set(data, {merge:true});
+        }
+        return ref.add(data);
+      }).then(function(){
+        showStatus(opts.id + '-status', 'ok', editingId ? 'Mis à jour.' : 'Publié avec succès.');
+        resetForm();
+      }).catch(function(err){
+        showStatus(opts.id + '-status', 'err', 'Erreur : ' + err.message);
+      }).finally(function(){
+        submitBtn.disabled = false;
+      });
+    });
+
+    db.collection(opts.collection).orderBy(opts.orderField, 'desc').onSnapshot(function(snap){
+      if(snap.empty){
+        listEl.innerHTML = '<div class="empty">Rien de publié pour le moment.</div>';
+        return;
+      }
+      listEl.innerHTML = '';
+      snap.forEach(function(doc){
+        var item = opts.buildListItem(doc.id, doc.data());
+        var wrap = document.createElement('div');
+        wrap.className = 'list-item';
+        wrap.innerHTML =
+          '<div class="thumb"' + (item.thumbUrl ? ' style="background-image:url(\'' + item.thumbUrl.replace(/'/g,"") + '\')"' : '') + '>' +
+            (item.thumbUrl ? '' : (item.thumbFallback || '')) +
+          '</div>' +
+          '<div class="meta"><h3>' + escapeHtml(item.title) + '</h3>' +
+            (item.subtitle ? '<p>' + escapeHtml(item.subtitle) + '</p>' : '') +
+            '<div class="date">' + escapeHtml(item.dateLabel) + '</div></div>' +
+          '<div class="actions">' +
+            '<button class="icon-btn" data-action="edit" title="Modifier">✎</button>' +
+            '<button class="icon-btn danger" data-action="delete" title="Supprimer">✕</button>' +
+          '</div>';
+        wrap.querySelector('[data-action="edit"]').addEventListener('click', function(){
+          editingId = doc.id;
+          formTitle.textContent = opts.editTitle;
+          submitBtn.textContent = 'Mettre à jour';
+          cancelBtn.style.display = 'inline-flex';
+          opts.fillForm(doc.data());
+          form.scrollIntoView({behavior:'smooth', block:'start'});
+        });
+        wireDangerConfirm(wrap.querySelector('[data-action="delete"]'), function(){
+          db.collection(opts.collection).doc(doc.id).delete().catch(function(err){
+            showStatus(opts.id + '-status', 'err', 'Erreur suppression : ' + err.message);
+          });
+        });
+        listEl.appendChild(wrap);
+      });
+    }, function(err){
+      listEl.innerHTML = '<div class="empty">Erreur de chargement : ' + escapeHtml(err.message) + '</div>';
+    });
+
+    return { reset: resetForm };
+  }
+
+  // --------------------------------------------------------------- NEWS
+  setupSection({
+    id: 'news', collection: 'news', orderField: 'publishedAt',
+    createTitle: 'Publier une actualité', editTitle: "Modifier l'actualité",
+    dateField: 'news-date',
+    collectData: function(){
+      var finish = function(imageUrl){
+        return {
+          title: $('news-title').value.trim(),
+          content: $('news-content').value.trim(),
+          category: $('news-category').value.trim() || 'Annonce',
+          publishedAt: inputValueToTimestamp($('news-date').value),
+          imageUrl: imageUrl || null
+        };
+      };
+      var file = $('news-image-file').files[0];
+      if(file){ return uploadFile(file, 'news', 'news-image-progress').then(finish); }
+      return finish($('news-image-url').value || null);
+    },
+    fillForm: function(data){
+      $('news-title').value = data.title || '';
+      $('news-content').value = data.content || '';
+      $('news-category').value = data.category || 'Annonce';
+      $('news-date').value = tsToLocalInputValue(data.publishedAt);
+      $('news-image-url').value = data.imageUrl || '';
+      $('news-image-file').value = '';
+    },
+    onReset: function(){ $('news-image-url').value=''; $('news-image-file').value=''; },
+    buildListItem: function(id, data){
+      return {
+        title: data.title, subtitle: data.content, dateLabel: formatFr(data.publishedAt),
+        thumbUrl: data.imageUrl, thumbFallback: '📰'
+      };
+    }
+  });
+
+  // -------------------------------------------------------------- EVENTS
+  setupSection({
+    id: 'events', collection: 'events', orderField: 'startAt',
+    createTitle: 'Publier un événement', editTitle: "Modifier l'événement",
+    dateField: 'events-date',
+    collectData: function(){
+      var finish = function(posterUrl){
+        return {
+          title: $('events-title').value.trim(),
+          description: $('events-description').value.trim(),
+          location: $('events-location').value.trim(),
+          startAt: inputValueToTimestamp($('events-date').value),
+          isRecurringWeekly: $('events-recurring').checked,
+          posterUrl: posterUrl || null
+        };
+      };
+      var file = $('events-poster-file').files[0];
+      if(file){ return uploadFile(file, 'posters', 'events-poster-progress').then(finish); }
+      return finish($('events-poster-url').value || null);
+    },
+    fillForm: function(data){
+      $('events-title').value = data.title || '';
+      $('events-description').value = data.description || '';
+      $('events-location').value = data.location || 'Centre de Prière Christ Vainqueur';
+      $('events-date').value = tsToLocalInputValue(data.startAt);
+      $('events-recurring').checked = !!data.isRecurringWeekly;
+      $('events-poster-url').value = data.posterUrl || '';
+      $('events-poster-file').value = '';
+    },
+    onReset: function(){ $('events-poster-url').value=''; $('events-poster-file').value=''; $('events-recurring').checked=false; },
+    buildListItem: function(id, data){
+      return {
+        title: data.title, subtitle: data.location, dateLabel: formatFr(data.startAt),
+        thumbUrl: data.posterUrl, thumbFallback: '📅'
+      };
+    }
+  });
+
+  // --------------------------------------------------------------- AUDIO
+  setupSection({
+    id: 'audio', collection: 'audioMessages', orderField: 'recordedAt',
+    createTitle: 'Publier une séance de prière', editTitle: "Modifier l'enregistrement",
+    dateField: 'audio-date',
+    collectData: function(){
+      var file = $('audio-file').files[0];
+      var finish = function(audioUrl){
+        if(!audioUrl){ throw new Error('Veuillez sélectionner un fichier mp3.'); }
+        return {
+          title: $('audio-title').value.trim(),
+          description: $('audio-description').value.trim(),
+          recordedAt: inputValueToTimestamp($('audio-date').value),
+          audioUrl: audioUrl
+        };
+      };
+      if(file){ return uploadFile(file, 'audio', 'audio-progress').then(finish); }
+      return Promise.resolve($('audio-url').value || null).then(finish);
+    },
+    fillForm: function(data){
+      $('audio-title').value = data.title || '';
+      $('audio-description').value = data.description || '';
+      $('audio-date').value = tsToLocalInputValue(data.recordedAt);
+      $('audio-url').value = data.audioUrl || '';
+      $('audio-file').value = '';
+    },
+    onReset: function(){ $('audio-url').value=''; $('audio-file').value=''; },
+    buildListItem: function(id, data){
+      return {
+        title: data.title, subtitle: data.description, dateLabel: formatFr(data.recordedAt),
+        thumbUrl: null, thumbFallback: '🎧'
+      };
+    }
+  });
+
+  // -------------------------------------------------------------- VIDEOS
+  function youtubeThumb(url){
+    try{
+      var u = new URL(url);
+      var id = null;
+      if(u.hostname.indexOf('youtu.be') !== -1){ id = u.pathname.split('/').filter(Boolean)[0]; }
+      else if(u.pathname.indexOf('/shorts/') !== -1){ id = u.pathname.split('/').filter(Boolean)[1]; }
+      else{ id = u.searchParams.get('v'); }
+      return id ? ('https://img.youtube.com/vi/' + id + '/hqdefault.jpg') : null;
+    }catch(e){ return null; }
+  }
+  setupSection({
+    id: 'videos', collection: 'videos', orderField: 'publishedAt',
+    createTitle: 'Publier une vidéo', editTitle: 'Modifier la vidéo',
+    dateField: 'videos-date',
+    collectData: function(){
+      return Promise.resolve({
+        title: $('videos-title').value.trim(),
+        youtubeUrl: $('videos-url').value.trim(),
+        publishedAt: inputValueToTimestamp($('videos-date').value)
+      });
+    },
+    fillForm: function(data){
+      $('videos-title').value = data.title || '';
+      $('videos-url').value = data.youtubeUrl || '';
+      $('videos-date').value = tsToLocalInputValue(data.publishedAt);
+    },
+    buildListItem: function(id, data){
+      return {
+        title: data.title, subtitle: data.youtubeUrl, dateLabel: formatFr(data.publishedAt),
+        thumbUrl: youtubeThumb(data.youtubeUrl || ''), thumbFallback: '▶'
+      };
+    }
+  });
+
+  // --------------------------------------------------------------- VERSE
+  setupSection({
+    id: 'verse', collection: 'dailyVerse', orderField: 'date',
+    createTitle: 'Publier le verset du jour', editTitle: 'Modifier le verset',
+    dateField: 'verse-date',
+    collectData: function(){
+      return Promise.resolve({
+        reference: $('verse-reference').value.trim(),
+        text: $('verse-text').value.trim(),
+        meditation: $('verse-meditation').value.trim() || null,
+        date: inputValueToTimestamp($('verse-date').value)
+      });
+    },
+    fillForm: function(data){
+      $('verse-reference').value = data.reference || '';
+      $('verse-text').value = data.text || '';
+      $('verse-meditation').value = data.meditation || '';
+      $('verse-date').value = tsToLocalInputValue(data.date);
+    },
+    buildListItem: function(id, data){
+      return {
+        title: data.reference, subtitle: data.text, dateLabel: formatFr(data.date),
+        thumbUrl: null, thumbFallback: '✝'
+      };
+    }
+  });
+
+  // ---------------------------------------------------------------- auth
+  var loginForm = $('login-form');
+  var loginBtn = $('login-btn');
+  var loginError = $('login-error');
+
+  loginForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    loginBtn.disabled = true;
+    loginError.style.display = 'none';
+    auth.signInWithEmailAndPassword($('login-email').value.trim(), $('login-password').value)
+      .catch(function(err){
+        var messages = {
+          'auth/invalid-email': 'Adresse e-mail invalide.',
+          'auth/user-not-found': "Aucun compte avec cette adresse.",
+          'auth/wrong-password': 'Mot de passe incorrect.',
+          'auth/invalid-credential': 'Identifiants incorrects.',
+          'auth/too-many-requests': 'Trop de tentatives, réessayez plus tard.'
+        };
+        loginError.textContent = messages[err.code] || ('Erreur : ' + err.message);
+        loginError.style.display = 'block';
+      })
+      .finally(function(){ loginBtn.disabled = false; });
+  });
+
+  $('logout-btn').addEventListener('click', function(){ auth.signOut(); });
+
+  auth.onAuthStateChanged(function(user){
+    if(user){
+      $('login-screen').style.display = 'none';
+      $('app-shell').style.display = 'block';
+      $('who-email').textContent = user.email;
+    } else {
+      $('login-screen').style.display = 'flex';
+      $('app-shell').style.display = 'none';
+    }
+  });
+})();
+</script>

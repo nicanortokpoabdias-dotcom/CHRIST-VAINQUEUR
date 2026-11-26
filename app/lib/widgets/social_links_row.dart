@@ -39,12 +39,13 @@ class SocialLinksRow extends StatelessWidget {
                   child: OutlinedButton.icon(
                     onPressed: () => _open(link.url),
                     icon: Icon(link.icon, color: link.color, size: 20),
-                    label: Text(link.label),
+                    label: Text(link.label, style: const TextStyle(fontWeight: FontWeight.w600)),
                     style: OutlinedButton.styleFrom(
                       foregroundColor: AppColors.primary,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      padding: const EdgeInsets.symmetric(vertical: 13),
+                      side: BorderSide(color: Colors.grey.withValues(alpha: 0.25)),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
+                        borderRadius: BorderRadius.circular(AppRadius.pill),
                       ),
                     ),
                   ),

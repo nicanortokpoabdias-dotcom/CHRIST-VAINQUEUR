@@ -23,7 +23,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.47.0"
+          flutter-version: "3.50.1"
           channel: "stable"
 
       - run: flutter pub get
@@ -32,20 +32,26 @@ jobs:
 
       - run: flutter build apk --release --split-per-abi
 
+      - run: flutter build appbundle --release
+
       - uses: actions/upload-artifact@v4
         with:
           name: christ-vainqueur-app-release-apk
-          path: app/build/app/outputs/flutter-apk/*.apk
+          path: |
+            app/build/app/outputs/flutter-apk/*.apk
+            app/build/app/outputs/bundle/release/*.aab
           retention-days: 30
 
-      # Publie aussi les APK sur une branche dédiée (via git, pas de stockage
-      # blob externe) pour permettre leur téléchargement depuis des environnements
-      # dont l'accès réseau est restreint à github.com. Les variantes "split
-      # per ABI" sont bien plus légères que l'APK universel.
-      - name: Publier les APK sur la branche apk-build
+      # Publie aussi les APK/AAB sur une branche dédiée (via git, pas de
+      # stockage blob externe) pour permettre leur téléchargement depuis des
+      # environnements dont l'accès réseau est restreint à github.com. Les
+      # variantes "split per ABI" sont bien plus légères que l'APK universel ;
+      # l'AAB est le format requis pour une soumission Google Play.
+      - name: Publier les APK/AAB sur la branche apk-build
         run: |
           mkdir -p /tmp/apks
           cp build/app/outputs/flutter-apk/*.apk /tmp/apks/
+          cp build/app/outputs/bundle/release/*.aab /tmp/apks/
           cd ..
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -53,7 +59,7 @@ jobs:
           git reset --hard
           git clean -fd
           mkdir -p dist
-          cp /tmp/apks/*.apk dist/
+          cp /tmp/apks/* dist/
           git add dist/
-          git commit -m "APK release ${{ github.sha }}"
+          git commit -m "APK/AAB release ${{ github.sha }}"
           git push --force origin apk-build

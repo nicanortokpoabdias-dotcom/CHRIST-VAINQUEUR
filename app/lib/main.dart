@@ -51,6 +51,8 @@ class ChristVainqueurApp extends StatelessWidget {
       title: 'Centre de Prière Christ Vainqueur',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
+      darkTheme: AppTheme.dark,
+      themeMode: ThemeMode.system,
       home: const RootScreen(),
     );
   }

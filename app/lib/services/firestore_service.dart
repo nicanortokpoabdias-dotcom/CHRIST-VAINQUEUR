@@ -7,6 +7,7 @@ import '../models/audio_message.dart';
 import '../models/daily_verse.dart';
 import '../models/news_article.dart';
 import '../models/prayer_event.dart';
+import '../models/video_item.dart';
 
 /// Convertit les erreurs du flux (Firebase non configuré, réseau, permissions)
 /// en une valeur de repli plutôt que de faire planter l'UI.
@@ -68,6 +69,20 @@ class FirestoreService {
     } catch (error) {
       debugPrint('Firestore indisponible: $error');
       return Stream.value(const <AudioMessage>[]);
+    }
+  }
+
+  Stream<List<VideoItem>> watchVideos() {
+    try {
+      return FirebaseFirestore.instance
+          .collection('videos')
+          .orderBy('publishedAt', descending: true)
+          .snapshots()
+          .map((snap) => snap.docs.map(VideoItem.fromFirestore).toList())
+          .transform(_fallbackOnError(const <VideoItem>[]));
+    } catch (error) {
+      debugPrint('Firestore indisponible: $error');
+      return Stream.value(const <VideoItem>[]);
     }
   }
 

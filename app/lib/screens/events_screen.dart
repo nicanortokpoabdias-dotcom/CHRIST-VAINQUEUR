@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/prayer_event.dart';
 import '../services/firestore_service.dart';
 import '../widgets/event_card.dart';
+import '../widgets/fade_slide_in.dart';
 
 class EventsScreen extends StatelessWidget {
   const EventsScreen({super.key});
@@ -19,20 +20,31 @@ class EventsScreen extends StatelessWidget {
           }
           final events = snapshot.data ?? const [];
           if (events.isEmpty) {
-            return const Center(
+            return Center(
               child: Padding(
-                padding: EdgeInsets.all(40),
-                child: Text(
-                  "Aucun événement programmé pour le moment.",
-                  textAlign: TextAlign.center,
+                padding: const EdgeInsets.all(40),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.event_busy_rounded, size: 40, color: Colors.grey[300]),
+                    const SizedBox(height: 12),
+                    const Text(
+                      "Aucun événement programmé pour le moment.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.grey),
+                    ),
+                  ],
                 ),
               ),
             );
           }
           return ListView.builder(
-            padding: const EdgeInsets.symmetric(vertical: 8),
+            padding: const EdgeInsets.fromLTRB(0, 8, 0, 100),
             itemCount: events.length,
-            itemBuilder: (context, index) => EventCard(event: events[index]),
+            itemBuilder: (context, index) => FadeSlideIn(
+              delay: Duration(milliseconds: 60 * index),
+              child: EventCard(event: events[index]),
+            ),
           );
         },
       ),

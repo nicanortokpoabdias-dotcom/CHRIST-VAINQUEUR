@@ -4,38 +4,19 @@ import 'package:just_audio/just_audio.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../models/audio_message.dart';
+import '../services/audio_player_service.dart';
 import '../services/firestore_service.dart';
 import '../theme/app_theme.dart';
+import '../widgets/fade_slide_in.dart';
 
-class AudioScreen extends StatefulWidget {
+class AudioScreen extends StatelessWidget {
   const AudioScreen({super.key});
 
-  @override
-  State<AudioScreen> createState() => _AudioScreenState();
-}
-
-class _AudioScreenState extends State<AudioScreen> {
-  final _player = AudioPlayer();
-  String? _playingId;
-
-  @override
-  void dispose() {
-    _player.dispose();
-    super.dispose();
-  }
-
-  Future<void> _togglePlay(AudioMessage message) async {
-    if (_playingId == message.id) {
-      await _player.pause();
-      setState(() => _playingId = null);
-      return;
-    }
+  Future<void> _togglePlay(BuildContext context, AudioMessage message) async {
     try {
-      await _player.setUrl(message.audioUrl);
-      setState(() => _playingId = message.id);
-      await _player.play();
-    } catch (error) {
-      if (!mounted) return;
+      await AudioPlayerService.instance.toggle(message);
+    } catch (_) {
+      if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text("Impossible de lire cet audio pour le moment.")),
       );
@@ -50,7 +31,6 @@ class _AudioScreenState extends State<AudioScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.background,
       appBar: AppBar(title: const Text('Prières & prédications')),
       body: StreamBuilder<List<AudioMessage>>(
         stream: FirestoreService.instance.watchAudioMessages(),
@@ -71,16 +51,28 @@ class _AudioScreenState extends State<AudioScreen> {
               ),
             );
           }
-          return ListView.builder(
-            padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
-            itemCount: messages.length,
-            itemBuilder: (context, index) => _AudioTile(
-              message: messages[index],
-              isPlaying: _playingId == messages[index].id,
-              player: _player,
-              onTogglePlay: () => _togglePlay(messages[index]),
-              onDownload: () => _download(messages[index]),
-            ),
+          return AnimatedBuilder(
+            animation: AudioPlayerService.instance,
+            builder: (context, _) {
+              return ListView.builder(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 100),
+                itemCount: messages.length,
+                itemBuilder: (context, index) {
+                  final message = messages[index];
+                  return FadeSlideIn(
+                    delay: Duration(milliseconds: 40 * index),
+                    child: _AudioTile(
+                      message: message,
+                      isCurrent: AudioPlayerService.instance.isCurrent(message),
+                      isPlaying: AudioPlayerService.instance.isCurrent(message) && AudioPlayerService.instance.isPlaying,
+                      player: AudioPlayerService.instance.player,
+                      onTogglePlay: () => _togglePlay(context, message),
+                      onDownload: () => _download(message),
+                    ),
+                  );
+                },
+              );
+            },
           );
         },
       ),
@@ -91,6 +83,7 @@ class _AudioScreenState extends State<AudioScreen> {
 class _AudioTile extends StatelessWidget {
   const _AudioTile({
     required this.message,
+    required this.isCurrent,
     required this.isPlaying,
     required this.player,
     required this.onTogglePlay,
@@ -98,6 +91,7 @@ class _AudioTile extends StatelessWidget {
   });
 
   final AudioMessage message;
+  final bool isCurrent;
   final bool isPlaying;
   final AudioPlayer player;
   final VoidCallback onTogglePlay;
@@ -109,8 +103,8 @@ class _AudioTile extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 14),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(20),
+        color: Theme.of(context).cardTheme.color,
+        borderRadius: BorderRadius.circular(AppRadius.lg),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withValues(alpha: 0.04),
@@ -132,7 +126,7 @@ class _AudioTile extends StatelessWidget {
                   width: 48,
                   height: 48,
                   decoration: const BoxDecoration(
-                    color: AppColors.primary,
+                    gradient: AppColors.gradientHero,
                     shape: BoxShape.circle,
                   ),
                   child: Icon(
@@ -175,7 +169,7 @@ class _AudioTile extends StatelessWidget {
               ),
             ],
           ),
-          if (isPlaying) ...[
+          if (isCurrent) ...[
             const SizedBox(height: 12),
             StreamBuilder<Duration>(
               stream: player.positionStream,
@@ -193,7 +187,7 @@ class _AudioTile extends StatelessWidget {
                       child: LinearProgressIndicator(
                         value: progress,
                         minHeight: 4,
-                        backgroundColor: AppColors.background,
+                        backgroundColor: AppColors.placeholder,
                         color: AppColors.gold,
                       ),
                     ),
