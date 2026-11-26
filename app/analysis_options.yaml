@@ -18,6 +18,12 @@ analyzer:
     - windows/**
     - macos/**
     - linux/**
+  errors:
+    # Le SDK Flutter signale désormais package:flutter/material.dart comme
+    # déprécié au profit d'un futur package:material_ui, non encore publié
+    # pour un usage réel. Ce diagnostic concerne tout le framework et pas
+    # notre code ; on l'ignore pour ne pas faire échouer `flutter analyze`.
+    deprecated_member_use: ignore
 
 linter:
   # The lint rules applied to this project can be customized in the
