@@ -126,14 +126,12 @@ ci-dessus pour activer les actualités en temps réel et les notifications.
 La console (`admin/console.html`, aussi publiée en ligne) permet de publier
 tout le contenu depuis un navigateur, sans toucher au code. Pour l'activer :
 
-1. **Activer la connexion par e-mail/mot de passe** : console Firebase →
-   *Authentication* → onglet *Sign-in method* → activez **E-mail/Mot de
-   passe**.
-2. **Créer votre compte administrateur** : *Authentication* → onglet *Users*
-   → *Add user* → choisissez l'e-mail et le mot de passe qui serviront à vous
-   connecter à la console.
-3. **Coller les règles de sécurité** (lecture publique pour l'app, écriture
-   réservée aux comptes connectés) :
+1. **Activer la connexion anonyme** (la console s'ouvre alors directement,
+   sans aucun mot de passe à créer ou retenir) : console Firebase →
+   *Authentication* → onglet *Sign-in method* → activez **Anonyme**.
+   Lien direct : https://console.firebase.google.com/project/christ-vainqueur/authentication/providers
+2. **Coller les règles de sécurité** (lecture publique pour l'app, écriture
+   réservée à la console) :
 
    **Firestore → Rules :**
    ```
@@ -161,16 +159,20 @@ tout le contenu depuis un navigateur, sans toucher au code. Pour l'activer :
    }
    ```
 
-4. **(Recommandé) Enregistrer une application Web** : *Paramètres du projet*
+3. **(Recommandé) Enregistrer une application Web** : *Paramètres du projet*
    → *Ajouter une application* → icône **</>** → donnez-lui un nom (ex.
    "Console admin") → copiez l'objet `firebaseConfig` affiché et remplacez
    `FIREBASE_WEB_CONFIG` dans `admin/console.html` (recherchez-le en haut du
    `<script>`). Sans cette étape, la console utilise une configuration
    provisoire qui fonctionne généralement, mais celle-ci est plus propre.
-5. Ouvrez la console, connectez-vous avec le compte créé à l'étape 2, et
-   publiez : chaque onglet (Actualités, Programme, Prières, Vidéos, Verset)
+4. Ouvrez la console (lien ci-dessus) : elle s'ouvre directement, sans rien
+   à saisir. Chaque onglet (Actualités, Programme, Prières, Vidéos, Verset)
    gère sa propre liste, avec upload direct des affiches/mp3 vers Firebase
    Storage.
+
+> ⚠️ Cette console n'a plus aucune protection par mot de passe : quiconque a
+> le lien peut publier ou supprimer du contenu. Gardez le lien privé (ne le
+> partagez pas publiquement) — c'est la seule protection restante.
 
 Pour envoyer une **notification push** en plus d'une actualité ou d'un
 événement, utilisez la console Firebase → *Cloud Messaging* → *Nouvelle

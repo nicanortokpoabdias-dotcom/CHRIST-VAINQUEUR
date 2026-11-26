@@ -37,11 +37,25 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        create("release") {
+            // Clé fixe, committée dans le dépôt : garantit la même signature à
+            // chaque build (CI ou local). Sans ça, chaque machine régénère sa
+            // propre clé de debug ambiante, et Android refuse d'installer une
+            // mise à jour signée différemment de la version déjà installée
+            // ("App not installed as package conflicts with an existing
+            // package"). Un vrai keystore de production pourra remplacer
+            // celui-ci avant une éventuelle publication sur le Play Store.
+            storeFile = file("release-signing.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 }

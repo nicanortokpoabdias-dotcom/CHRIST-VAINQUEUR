@@ -170,17 +170,12 @@
 </style>
 
 <div id="login-screen">
-  <form class="login-card" id="login-form">
-    <div class="brand"><div class="brand-mark">CV</div>
-      <div><h1>Console Christ Vainqueur</h1><p class="sub">Publier actualités, programme, audio &amp; vidéos</p></div>
+  <div class="login-card" style="text-align:center;">
+    <div class="brand" style="justify-content:center;"><div class="brand-mark">CV</div>
+      <div style="text-align:left;"><h1>Console Christ Vainqueur</h1><p class="sub">Ouverture…</p></div>
     </div>
-    <div class="field"><label for="login-email">Adresse e-mail</label>
-      <input id="login-email" type="email" autocomplete="username" required placeholder="vous@exemple.com"></div>
-    <div class="field"><label for="login-password">Mot de passe</label>
-      <input id="login-password" type="password" autocomplete="current-password" required placeholder="••••••••"></div>
-    <button class="btn btn-primary" type="submit" id="login-btn">Se connecter</button>
     <div class="login-error" id="login-error"></div>
-  </form>
+  </div>
 </div>
 
 <div id="app-shell">
@@ -188,9 +183,8 @@
     <div class="topbar">
       <div class="who">
         <div class="brand-mark" style="width:34px;height:34px;font-size:14px;">CV</div>
-        <div><div style="font-weight:700;font-size:14px;">Console Christ Vainqueur</div><span id="who-email"></span></div>
+        <div style="font-weight:700;font-size:14px;">Console Christ Vainqueur</div>
       </div>
-      <button class="btn btn-ghost" id="logout-btn">Déconnexion</button>
     </div>
 
     <nav class="tabs" id="tabs">
@@ -738,40 +732,24 @@
   });
 
   // ---------------------------------------------------------------- auth
-  var loginForm = $('login-form');
-  var loginBtn = $('login-btn');
+  // Pas de formulaire, pas de mot de passe : la console se connecte seule,
+  // en silence, dès l'ouverture (connexion "anonyme" Firebase). Ça ne
+  // fonctionne que si l'option "Anonyme" est activée dans Firebase Console →
+  // Authentication → Sign-in method (voir README).
   var loginError = $('login-error');
-
-  loginForm.addEventListener('submit', function(e){
-    e.preventDefault();
-    loginBtn.disabled = true;
-    loginError.style.display = 'none';
-    auth.signInWithEmailAndPassword($('login-email').value.trim(), $('login-password').value)
-      .catch(function(err){
-        var messages = {
-          'auth/invalid-email': 'Adresse e-mail invalide.',
-          'auth/user-not-found': "Aucun compte avec cette adresse.",
-          'auth/wrong-password': 'Mot de passe incorrect.',
-          'auth/invalid-credential': 'Identifiants incorrects.',
-          'auth/too-many-requests': 'Trop de tentatives, réessayez plus tard.'
-        };
-        loginError.textContent = messages[err.code] || ('Erreur : ' + err.message);
-        loginError.style.display = 'block';
-      })
-      .finally(function(){ loginBtn.disabled = false; });
-  });
-
-  $('logout-btn').addEventListener('click', function(){ auth.signOut(); });
 
   auth.onAuthStateChanged(function(user){
     if(user){
       $('login-screen').style.display = 'none';
       $('app-shell').style.display = 'block';
-      $('who-email').textContent = user.email;
-    } else {
-      $('login-screen').style.display = 'flex';
-      $('app-shell').style.display = 'none';
     }
+  });
+
+  auth.signInAnonymously().catch(function(err){
+    loginError.textContent = (err.code === 'auth/admin-restricted-operation' || err.code === 'auth/operation-not-allowed')
+      ? 'La connexion anonyme n\'est pas encore activée dans Firebase (voir README de la console).'
+      : 'Erreur de connexion : ' + err.message;
+    loginError.style.display = 'block';
   });
 })();
 </script>

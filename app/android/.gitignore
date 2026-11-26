@@ -12,3 +12,7 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+# Exception : clé de signature "debug" fixe et volontairement publique (voir
+# app/build.gradle.kts), pour que chaque build CI/local produise la même
+# signature et que les mises à jour s'installent sans conflit.
+!app/release-signing.keystore
