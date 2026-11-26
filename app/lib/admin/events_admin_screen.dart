@@ -54,8 +54,8 @@ class _EventsAdminScreenState extends State<EventsAdminScreen> {
   }
 
   Future<void> _pickPoster() async {
-    final result = await FilePicker.platform.pickFiles(type: FileType.image);
-    final path = result?.files.single.path;
+    final file = await FilePicker.pickFile(type: FileType.image);
+    final path = file?.path;
     if (path != null) setState(() => _pickedPoster = File(path));
   }
 

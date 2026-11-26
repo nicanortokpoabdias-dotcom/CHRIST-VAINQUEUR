@@ -48,8 +48,8 @@ class _AudioAdminScreenState extends State<AudioAdminScreen> {
   }
 
   Future<void> _pickAudio() async {
-    final result = await FilePicker.platform.pickFiles(type: FileType.audio);
-    final path = result?.files.single.path;
+    final file = await FilePicker.pickFile(type: FileType.audio);
+    final path = file?.path;
     if (path != null) setState(() => _pickedAudio = File(path));
   }
 

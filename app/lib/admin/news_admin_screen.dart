@@ -51,8 +51,8 @@ class _NewsAdminScreenState extends State<NewsAdminScreen> {
   }
 
   Future<void> _pickImage() async {
-    final result = await FilePicker.platform.pickFiles(type: FileType.image);
-    final path = result?.files.single.path;
+    final file = await FilePicker.pickFile(type: FileType.image);
+    final path = file?.path;
     if (path != null) setState(() => _pickedImage = File(path));
   }
 
