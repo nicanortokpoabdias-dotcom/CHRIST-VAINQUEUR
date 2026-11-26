@@ -9,7 +9,11 @@ programme des événements, prières audio, vidéos et verset du jour.
 Tout le contenu (actualités, événements + affiches, audios, vidéos, verset
 du jour) se publie depuis une **console web privée**, sans toucher au code :
 
-👉 **https://claude.ai/artifact/FMF8BCC7pRA98hDZ9tbJT6**
+👉 **https://nicanortokpoabdias-dotcom.github.io/CHRIST-VAINQUEUR/**
+
+(Ancien lien `claude.ai/artifact/...` : ne fonctionne pas, une page Artifact
+ne peut pas se connecter à Firebase. La console doit être un vrai site —
+voir ci-dessous.)
 
 Voir [Configurer la console d'administration](#configurer-la-console-dadministration)
 pour l'activer (une seule fois).
@@ -123,10 +127,16 @@ ci-dessus pour activer les actualités en temps réel et les notifications.
 
 ## Configurer la console d'administration
 
-La console (`admin/console.html`, aussi publiée en ligne) permet de publier
-tout le contenu depuis un navigateur, sans toucher au code. Pour l'activer :
+La console (`admin/console.html`) est publiée automatiquement comme un vrai
+site (GitHub Pages) à chaque mise à jour, pour pouvoir se connecter à
+Firebase. Pour l'activer (deux étapes, une seule fois) :
 
-1. **Activer la connexion anonyme** (la console s'ouvre alors directement,
+1. **Activer GitHub Pages pour ce dépôt** : sur GitHub, dépôt
+   `CHRIST-VAINQUEUR` → **Settings** → **Pages** (menu de gauche) → sous
+   *Build and deployment*, choisissez **Source : GitHub Actions**. C'est
+   tout : chaque mise à jour de la console se republie seule ensuite, à
+   l'adresse https://nicanortokpoabdias-dotcom.github.io/CHRIST-VAINQUEUR/
+2. **Activer la connexion anonyme** (la console s'ouvre alors directement,
    sans aucun mot de passe à créer ou retenir) : console Firebase →
    *Authentication* → onglet *Sign-in method* → activez **Anonyme**.
    Lien direct : https://console.firebase.google.com/project/christ-vainqueur/authentication/providers

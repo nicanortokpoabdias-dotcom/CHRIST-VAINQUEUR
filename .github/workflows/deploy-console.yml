@@ -1,0 +1,48 @@
+name: Déployer la console admin (GitHub Pages)
+
+# La console (admin/console.html) doit tourner comme un vrai site web pour
+# pouvoir parler à Firebase (Auth/Firestore/Storage) ; publiée comme un lien
+# "Artifact" Claude, elle est isolée du reste d'internet et ne peut jamais
+# s'y connecter ("auth/network-request-failed"). GitHub Pages lui donne un
+# accès internet normal, gratuitement, et se redéploie seul à chaque push.
+
+on:
+  push:
+    branches: [claude/mobile-app-prayer-center-news-prux4y]
+    paths:
+      - "admin/**"
+      - ".github/workflows/deploy-console.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Préparer le site (admin/console.html -> index.html)
+        run: |
+          mkdir -p site
+          cp admin/console.html site/index.html
+          cp admin/verses_364.json site/verses_364.json
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
