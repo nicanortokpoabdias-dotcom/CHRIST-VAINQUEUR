@@ -90,6 +90,7 @@ class FirestoreService {
     try {
       return FirebaseFirestore.instance
           .collection('dailyVerse')
+          .where('date', isLessThanOrEqualTo: Timestamp.now())
           .orderBy('date', descending: true)
           .limit(1)
           .snapshots()
