@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../admin/admin_gate.dart';
 import '../models/daily_verse.dart';
 import '../models/news_article.dart';
 import '../services/firestore_service.dart';
@@ -10,14 +11,40 @@ import '../widgets/social_links_row.dart';
 import '../widgets/verse_banner.dart';
 import 'news_detail_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  int _logoTaps = 0;
+  DateTime? _firstTapAt;
 
   String get _greeting {
     final hour = DateTime.now().hour;
     if (hour < 12) return 'Bonjour';
     if (hour < 18) return 'Bon après-midi';
     return 'Bonsoir';
+  }
+
+  // Geste secret : 5 tapotements sur le logo en moins de 3 secondes ouvrent
+  // l'administration (code PIN requis ensuite). Rien n'indique ce geste à
+  // l'écran, pour ne pas intriguer les visiteurs de l'app.
+  void _onLogoTap() {
+    final now = DateTime.now();
+    if (_firstTapAt == null || now.difference(_firstTapAt!) > const Duration(seconds: 3)) {
+      _firstTapAt = now;
+      _logoTaps = 1;
+    } else {
+      _logoTaps++;
+    }
+    if (_logoTaps >= 5) {
+      _logoTaps = 0;
+      _firstTapAt = null;
+      openAdmin(context);
+    }
   }
 
   @override
@@ -36,12 +63,15 @@ class HomeScreen extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(AppRadius.sm),
-                      child: Image.asset(
-                        'assets/images/logo_transparent.png',
-                        width: 44,
-                        height: 44,
+                    GestureDetector(
+                      onTap: _onLogoTap,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(AppRadius.sm),
+                        child: Image.asset(
+                          'assets/images/logo_transparent.png',
+                          width: 44,
+                          height: 44,
+                        ),
                       ),
                     ),
                     const SizedBox(width: 12),

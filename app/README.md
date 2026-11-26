@@ -4,19 +4,26 @@ Application Flutter (Android) pour permettre aux membres et visiteurs du
 **CENTRE DE PRIÈRE CHRIST VAINQUEUR** de rester informés : actualités,
 programme des événements, prières audio, vidéos et verset du jour.
 
-## Console d'administration
+## Administration (publier du contenu)
 
 Tout le contenu (actualités, événements + affiches, audios, vidéos, verset
-du jour) se publie depuis une **console web privée**, sans toucher au code :
+du jour) se publie **directement depuis l'application**, sur le téléphone :
 
-👉 **https://nicanortokpoabdias-dotcom.github.io/CHRIST-VAINQUEUR/**
+1. Ouvrez l'app sur l'écran d'accueil.
+2. Tapotez **5 fois rapidement sur le logo** en haut à gauche (geste caché,
+   volontairement discret — rien ne l'indique à l'écran).
+3. Entrez le code administrateur (`CV2026` par défaut — demandez à le
+   changer si besoin) : l'administration s'ouvre, avec un onglet par type de
+   contenu (Actualités / Programme / Prières / Vidéos / Verset).
+4. Les photos d'affiches et les fichiers mp3 se choisissent directement
+   depuis le téléphone (galerie / fichiers) — aucun site, aucun ordinateur
+   nécessaire. Une seule chose à activer côté Firebase (une fois) : voir
+   [Configurer l'administration](#configurer-ladministration).
 
-(Ancien lien `claude.ai/artifact/...` : ne fonctionne pas, une page Artifact
-ne peut pas se connecter à Firebase. La console doit être un vrai site —
-voir ci-dessous.)
-
-Voir [Configurer la console d'administration](#configurer-la-console-dadministration)
-pour l'activer (une seule fois).
+Une console web de secours existe aussi (même contenu, utile depuis un
+ordinateur) : 👉 **https://nicanortokpoabdias-dotcom.github.io/CHRIST-VAINQUEUR/**
+— voir [Configurer l'administration](#configurer-ladministration) pour
+l'activer, optionnel.
 
 ## Fonctionnalités
 
@@ -125,23 +132,20 @@ ci-dessus pour activer les actualités en temps réel et les notifications.
 | `meditation` | string?   | Courte méditation (optionnel)|
 | `date`       | timestamp | Date associée                |
 
-## Configurer la console d'administration
+## Configurer l'administration
 
-La console (`admin/console.html`) est publiée automatiquement comme un vrai
-site (GitHub Pages) à chaque mise à jour, pour pouvoir se connecter à
-Firebase. Pour l'activer (deux étapes, une seule fois) :
+L'administration (dans l'app comme sur la console web de secours) a besoin
+d'une seule chose côté Firebase, à faire une seule fois :
 
-1. **Activer GitHub Pages pour ce dépôt** : sur GitHub, dépôt
-   `CHRIST-VAINQUEUR` → **Settings** → **Pages** (menu de gauche) → sous
-   *Build and deployment*, choisissez **Source : GitHub Actions**. C'est
-   tout : chaque mise à jour de la console se republie seule ensuite, à
-   l'adresse https://nicanortokpoabdias-dotcom.github.io/CHRIST-VAINQUEUR/
-2. **Activer la connexion anonyme** (la console s'ouvre alors directement,
-   sans aucun mot de passe à créer ou retenir) : console Firebase →
-   *Authentication* → onglet *Sign-in method* → activez **Anonyme**.
-   Lien direct : https://console.firebase.google.com/project/christ-vainqueur/authentication/providers
+1. **Activer la connexion anonyme** : console Firebase → *Authentication* →
+   onglet *Sign-in method* → activez **Anonyme**. Lien direct :
+   https://console.firebase.google.com/project/christ-vainqueur/authentication/providers
+
+   Sans cette étape, l'administration affiche une erreur de connexion
+   explicite (avec un rappel de ce lien) tant qu'elle n'est pas activée.
+
 2. **Coller les règles de sécurité** (lecture publique pour l'app, écriture
-   réservée à la console) :
+   réservée à l'administration — dans l'app ou la console web) :
 
    **Firestore → Rules :**
    ```
@@ -169,20 +173,35 @@ Firebase. Pour l'activer (deux étapes, une seule fois) :
    }
    ```
 
-3. **(Recommandé) Enregistrer une application Web** : *Paramètres du projet*
+C'est tout : ouvrez l'app, faites le geste caché (5 tapotements sur le
+logo) décrit plus haut, entrez le code administrateur, et publiez.
+
+> ⚠️ Le code administrateur (`CV2026`) protège l'accès à l'administration,
+> mais pas les données elles-mêmes : toute personne qui l'obtient peut
+> publier ou supprimer du contenu. Ne le partagez qu'avec les personnes de
+> confiance qui gèrent le contenu du centre.
+
+<details>
+<summary>Console web de secours (optionnelle, depuis un ordinateur)</summary>
+
+La console (`admin/console.html`) est aussi publiée automatiquement comme un
+vrai site (GitHub Pages) à chaque mise à jour. Pour l'activer (une fois) :
+
+1. Sur GitHub, dépôt `CHRIST-VAINQUEUR` → **Settings** → **Pages** (menu de
+   gauche) → sous *Build and deployment*, choisissez **Source : GitHub
+   Actions**. Chaque mise à jour de la console se republie seule ensuite, à
+   l'adresse https://nicanortokpoabdias-dotcom.github.io/CHRIST-VAINQUEUR/
+2. **(Recommandé) Enregistrer une application Web** : *Paramètres du projet*
    → *Ajouter une application* → icône **</>** → donnez-lui un nom (ex.
    "Console admin") → copiez l'objet `firebaseConfig` affiché et remplacez
    `FIREBASE_WEB_CONFIG` dans `admin/console.html` (recherchez-le en haut du
    `<script>`). Sans cette étape, la console utilise une configuration
    provisoire qui fonctionne généralement, mais celle-ci est plus propre.
-4. Ouvrez la console (lien ci-dessus) : elle s'ouvre directement, sans rien
-   à saisir. Chaque onglet (Actualités, Programme, Prières, Vidéos, Verset)
-   gère sa propre liste, avec upload direct des affiches/mp3 vers Firebase
-   Storage.
 
-> ⚠️ Cette console n'a plus aucune protection par mot de passe : quiconque a
-> le lien peut publier ou supprimer du contenu. Gardez le lien privé (ne le
-> partagez pas publiquement) — c'est la seule protection restante.
+Cette console n'a aucune protection par mot de passe : quiconque a le lien
+peut publier ou supprimer du contenu. Gardez le lien privé.
+
+</details>
 
 Pour envoyer une **notification push** en plus d'une actualité ou d'un
 événement, utilisez la console Firebase → *Cloud Messaging* → *Nouvelle
